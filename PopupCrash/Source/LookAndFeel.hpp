@@ -26,12 +26,16 @@ public:
         int height,
         const juce::PopupMenu::Options& options) override
     {
-        const bool isComboBox = (dynamic_cast<juce::ComboBox*> (options.getTargetComponent()) != nullptr);
+        juce::Component *c = options.getTargetComponent();
+        const bool isBox = (dynamic_cast<juce::ComboBox*> (c) != nullptr);
+        const bool isBar = (dynamic_cast<juce::MenuBarComponent*> (c) != nullptr);
         
-        if (isComboBox) {
+        if (isBox) {
             g.fillAll (juce::Colours::green);
-        } else {
+        } else if (isBar) {
             g.fillAll (juce::Colours::blue);
+        } else {
+            g.fillAll (juce::Colours::red);     DBG ("Called with already deleted component!");
         }
     }
 

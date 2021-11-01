@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="rCR7TZ" name="PopupCrash" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="MTY0br" name="PopupCrash">
+    <GROUP id="{2357868B-6E46-43E3-82A5-EF7AA24F2DB2}" name="Source">
+      <FILE id="L8938q" name="LookAndFeel.hpp" compile="0" resource="0" file="Source/LookAndFeel.hpp"/>
+      <FILE id="r8trGh" name="Commands.hpp" compile="0" resource="0" file="Source/Commands.hpp"/>
+      <FILE id="gIbcda" name="Commands.cpp" compile="1" resource="0" file="Source/Commands.cpp"/>
+      <FILE id="WFCQxI" name="MenuModel.hpp" compile="0" resource="0" file="Source/MenuModel.hpp"/>
+      <FILE id="RIckfN" name="MenuModel.cpp" compile="1" resource="0" file="Source/MenuModel.cpp"/>
+      <FILE id="chEGMt" name="Component.hpp" compile="0" resource="0" file="Source/Component.hpp"/>
+      <FILE id="sTCRgL" name="Component.cpp" compile="1" resource="0" file="Source/Component.cpp"/>
+      <FILE id="ZB52ky" name="Window.hpp" compile="0" resource="0" file="Source/Window.hpp"/>
+      <FILE id="MHgCy4" name="TestComponent.hpp" compile="0" resource="0"
+            file="Source/TestComponent.hpp"/>
+      <FILE id="HvI621" name="TestWindow.hpp" compile="0" resource="0" file="Source/TestWindow.hpp"/>
+      <FILE id="ChwMtD" name="TestWindow.cpp" compile="1" resource="0" file="Source/TestWindow.cpp"/>
+      <FILE id="l0Op20" name="MainComponent.hpp" compile="0" resource="0"
+            file="Source/MainComponent.hpp"/>
+      <FILE id="JeqXSr" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="iCnsqd" name="MainWindow.hpp" compile="0" resource="0" file="Source/MainWindow.hpp"/>
+      <FILE id="JPHCx0" name="Main.hpp" compile="0" resource="0" file="Source/Main.hpp"/>
+      <FILE id="HUQMkQ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="PopupCrash"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="PopupCrash"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_basics"/>
+        <MODULEPATH id="juce_graphics"/>
+        <MODULEPATH id="juce_events"/>
+        <MODULEPATH id="juce_data_structures"/>
+        <MODULEPATH id="juce_core"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>

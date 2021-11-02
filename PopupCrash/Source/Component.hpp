@@ -16,14 +16,12 @@ class BaseComponent :   public juce::Component,
 // MARK: -
 
 public:
-    explicit BaseComponent()
+    explicit BaseComponent() : menubar_ (&BaseComponent::getMenuBarModel())
     {
         BaseComponent::getCommandManager().registerAllCommandsForTarget (this);
-        
         addKeyListener (BaseComponent::getCommandManager().getKeyMappings());
         
-        menubar_ = std::make_unique<juce::MenuBarComponent> (&BaseComponent::getMenuBarModel());
-        addAndMakeVisible (menubar_.get());
+        addAndMakeVisible (menubar_);
         
         setWantsKeyboardFocus (true);
         setOpaque (true);
@@ -45,7 +43,7 @@ protected:
     {
         juce::Rectangle<int> b = getLocalBounds();
 
-        menubar_->setBounds (b.removeFromTop (24));
+        menubar_.setBounds (b.removeFromTop (24));
         
         return b;
     }
@@ -84,7 +82,7 @@ public:
     }
 
 private:
-    std::unique_ptr<juce::MenuBarComponent> menubar_;
+    juce::MenuBarComponent menubar_;
     
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (BaseComponent)

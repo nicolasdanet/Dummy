@@ -18,9 +18,7 @@ class TestWindow : public BaseWindow {
 public:
     explicit TestWindow () : BaseWindow ("Crash")
     {
-        content_ = std::make_unique<TestComponent>();
-        
-        setContentNonOwned (content_.get(), true);
+        setContentOwned (new TestComponent(), true);
         
         setTopLeftPosition (100, 100); makeVisible();
     }
@@ -34,9 +32,6 @@ public:
 public:
     void closeButtonPressed() override;
 
-private:
-    std::unique_ptr<TestComponent> content_;
-    
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestWindow)
 };

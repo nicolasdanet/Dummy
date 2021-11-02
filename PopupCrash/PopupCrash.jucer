@@ -9,9 +9,11 @@
       <FILE id="gIbcda" name="Commands.cpp" compile="1" resource="0" file="Source/Commands.cpp"/>
       <FILE id="WFCQxI" name="MenuModel.hpp" compile="0" resource="0" file="Source/MenuModel.hpp"/>
       <FILE id="RIckfN" name="MenuModel.cpp" compile="1" resource="0" file="Source/MenuModel.cpp"/>
-      <FILE id="chEGMt" name="Component.hpp" compile="0" resource="0" file="Source/Component.hpp"/>
-      <FILE id="sTCRgL" name="Component.cpp" compile="1" resource="0" file="Source/Component.cpp"/>
-      <FILE id="ZB52ky" name="Window.hpp" compile="0" resource="0" file="Source/Window.hpp"/>
+      <FILE id="chEGMt" name="BaseComponent.hpp" compile="0" resource="0"
+            file="Source/BaseComponent.hpp"/>
+      <FILE id="sTCRgL" name="BaseComponent.cpp" compile="1" resource="0"
+            file="Source/BaseComponent.cpp"/>
+      <FILE id="ZB52ky" name="BaseWindow.hpp" compile="0" resource="0" file="Source/BaseWindow.hpp"/>
       <FILE id="MHgCy4" name="TestComponent.hpp" compile="0" resource="0"
             file="Source/TestComponent.hpp"/>
       <FILE id="HvI621" name="TestWindow.hpp" compile="0" resource="0" file="Source/TestWindow.hpp"/>

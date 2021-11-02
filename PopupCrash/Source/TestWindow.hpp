@@ -2,7 +2,7 @@
 #pragma once
 
 #include <JuceHeader.h>
-#include "Window.hpp"
+#include "BaseWindow.hpp"
 #include "TestComponent.hpp"
 
 // -----------------------------------------------------------------------------------------------------------

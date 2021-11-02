@@ -17,9 +17,7 @@ class MainComponent : public BaseComponent {
 public:
     explicit MainComponent() : BaseComponent(), button_ ("Open the crash window")
     {
-        initializeButton();
-        
-        addAndMakeVisible (button_);
+        initializeButton (button_); addAndMakeVisible (button_);
         
         setSize (300, 200);
     }
@@ -48,7 +46,7 @@ public:
 // MARK: -
 
 private:
-    void initializeButton();
+    static void initializeButton (juce::TextButton& button);
     
 private:
     juce::TextButton button_;

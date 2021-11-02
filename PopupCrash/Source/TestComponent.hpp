@@ -17,9 +17,7 @@ class TestComponent : public BaseComponent {
 public:
     explicit TestComponent() : BaseComponent()
     {
-        initializeComboBox();
-        
-        addAndMakeVisible (box_);
+        initializeComboBox (box_); addAndMakeVisible (box_);
         
         setSize (300, 200);
     }
@@ -48,9 +46,9 @@ public:
 // MARK: -
 
 private:
-    void initializeComboBox()
+    static void initializeComboBox (juce::ComboBox& box)
     {
-        box_.addItemList ( { "Bijou", "Caillou", "Chou", "Genou", "Hibou", "Joujou", "Pou" } , 1);
+        box.addItemList ( { "Bijou", "Caillou", "Chou", "Genou", "Hibou", "Joujou", "Pou" } , 1);
     }
     
 private:

@@ -6,9 +6,9 @@
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
-void MainComponent::initializeButton()
+void MainComponent::initializeButton (juce::TextButton& button)
 {
-    button_.onClick = []() { PopupApplication::getApplication().openTestWindow(); };
+    button.onClick = []() { PopupApplication::getApplication().openTestWindow(); };
 }
 
 // -----------------------------------------------------------------------------------------------------------

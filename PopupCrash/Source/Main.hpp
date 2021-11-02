@@ -71,7 +71,7 @@ public:
 // MARK: -
 
 public:
-    template <class T> void createOrOpenWindow (std::unique_ptr<T>& p)
+    template <class T> static void createOrOpenWindow (std::unique_ptr<T>& p)
     {
         if (p == nullptr) { p = std::make_unique<T>(); } else { p.get()->toFront (true); }
     }
@@ -86,6 +86,10 @@ public:
         testWindow_ = nullptr;
     }
 
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
+
 public:
     static PopupApplication& getApplication()
     {
@@ -97,12 +101,14 @@ public:
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------
 
+private:
+    ApplicationLookAndFeel lnf_;
+        
 public:
     std::unique_ptr<juce::ApplicationCommandManager> commandManager_;
     std::unique_ptr<MenuModel> menu_;
     
 private:
-    ApplicationLookAndFeel lnf_;
     std::unique_ptr<MainWindow> mainWindow_;
     std::unique_ptr<TestWindow> testWindow_;
 };

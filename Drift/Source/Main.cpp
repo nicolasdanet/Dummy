@@ -6,11 +6,13 @@
 class DriftApplication : public juce::JUCEApplication {
 
 public:
-    DriftApplication() {}
+    DriftApplication()  = default;
+    ~DriftApplication() = default;
 
-    const juce::String getApplicationName() override       { return ProjectInfo::projectName; }
-    const juce::String getApplicationVersion() override    { return ProjectInfo::versionString; }
-    bool moreThanOneInstanceAllowed() override             { return true; }
+public:
+    const juce::String getApplicationName() override    { return ProjectInfo::projectName; }
+    const juce::String getApplicationVersion() override { return ProjectInfo::versionString; }
+    bool moreThanOneInstanceAllowed() override          { return true; }
 
 public:
     void initialise (const juce::String& commandLine) override
@@ -69,6 +71,10 @@ private:
             juce::PropertiesFile* preferences = DriftApplication::getPreferences();
         
             preferences->setValue ("Position", juce::var (getWindowStateAsString()));
+            
+            const juce::String s = preferences->getValue ("Position");
+        
+            DBG (juce::String ("Save / ") + s);
         }
         
         void closeButtonPressed() override
@@ -83,6 +89,8 @@ private:
         
             const juce::String s = preferences->getValue ("Position");
         
+            DBG (juce::String ("Load / ") + s);
+            
             if (s.isNotEmpty()) { restoreWindowStateFromString (s); }
         
             setVisible (true); addToDesktop(); toFront (true);

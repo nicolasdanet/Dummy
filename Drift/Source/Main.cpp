@@ -69,12 +69,10 @@ private:
         ~MainWindow()
         {
             juce::PropertiesFile* preferences = DriftApplication::getPreferences();
-        
+            
             preferences->setValue ("Position", juce::var (getWindowStateAsString()));
             
-            const juce::String s = preferences->getValue ("Position");
-        
-            DBG (juce::String ("Save / ") + s);
+            DBG (juce::String ("Save / ") + preferences->getValue ("Position"));
         }
         
         void closeButtonPressed() override
@@ -88,10 +86,8 @@ private:
             juce::PropertiesFile* preferences = DriftApplication::getPreferences();
         
             const juce::String s = preferences->getValue ("Position");
-        
-            DBG (juce::String ("Load / ") + s);
-            
-            if (s.isNotEmpty()) { restoreWindowStateFromString (s); }
+
+            if (s.isNotEmpty()) { DBG (juce::String ("Load / ") + s); restoreWindowStateFromString (s); }
         
             setVisible (true); addToDesktop(); toFront (true);
         }

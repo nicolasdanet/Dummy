@@ -16,10 +16,14 @@ public:
 public:
     void paint (juce::Graphics& g) override
     {
-        g.fillAll (juce::Colours::black);
+        const juce::Rectangle<int> r (300, 300);
+        
+        g.fillAll (juce::Colours::orange);
+        g.setColour (juce::Colours::black);
+        g.fillRect (r);
         g.setFont (juce::Font (24.0f));
-        g.setColour (juce::Colours::orange);
-        g.drawText ("Hello World!", getLocalBounds(), juce::Justification::centred, true);
+        g.setColour (juce::Colours::white);
+        g.drawText ("300 x 300", r, juce::Justification::centred, true);
     }
 
     void resized() override

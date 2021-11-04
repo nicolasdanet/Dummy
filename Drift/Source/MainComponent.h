@@ -29,6 +29,11 @@ public:
     void resized() override
     {
     }
+    
+    void mouseDoubleClick (const juce::MouseEvent &) override
+    {
+        setSize (300, 300);
+    }
 
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)

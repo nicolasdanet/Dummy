@@ -35,7 +35,7 @@ public:
         } else if (isBar) {
             g.fillAll (juce::Colours::blue);
         } else {
-            g.fillAll (juce::Colours::red);     DBG ("Called with already deleted component!");
+            g.fillAll (juce::Colours::red); DBG ("Called with already deleted component (or by submenu)!");
         }
     }
 

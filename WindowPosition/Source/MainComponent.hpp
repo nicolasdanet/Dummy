@@ -14,9 +14,12 @@ class MainComponent : public juce::Component {
 // MARK: -
 
 public:
-    explicit MainComponent() : button_ ("Open the window")
+    explicit MainComponent() : buttonOpen_ ("Open the window"), buttonClose_ ("Close the window")
     {
-        initializeButton (button_); addAndMakeVisible (button_);
+        initializeButtons();
+        
+        addAndMakeVisible (buttonOpen_);
+        addAndMakeVisible (buttonClose_);
         
         setSize (300, 200);
     }
@@ -35,7 +38,10 @@ public:
     
     void resized() override
     {
-        button_.setBounds (getLocalBounds().removeFromTop (24));
+        juce::Rectangle<int> b (getLocalBounds());
+        
+        buttonOpen_.setBounds (b.removeFromTop (24));
+        buttonClose_.setBounds (b.removeFromTop (24));
     }
 
 // -----------------------------------------------------------------------------------------------------------
@@ -43,10 +49,11 @@ public:
 // MARK: -
 
 private:
-    static void initializeButton (juce::TextButton& button);
+    void initializeButtons();
     
 private:
-    juce::TextButton button_;
+    juce::TextButton buttonOpen_;
+    juce::TextButton buttonClose_;
     
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)

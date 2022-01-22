@@ -39,6 +39,7 @@ public:
 
     void shutdown() override
     {
+        testWindow_ = nullptr;
         mainWindow_ = nullptr;
         
         DBG ("Shutdown!");

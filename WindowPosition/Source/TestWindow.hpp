@@ -17,7 +17,7 @@ class TestWindow : public BaseWindow {
 public:
     explicit TestWindow () : BaseWindow ("Test")
     {
-        makeVisible();
+        makeVisible (juce::Rectangle<int> (300, 300, 300, 200));
     }
 
     ~TestWindow() = default;

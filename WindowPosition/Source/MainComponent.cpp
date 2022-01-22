@@ -6,9 +6,10 @@
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
-void MainComponent::initializeButton (juce::TextButton& button)
+void MainComponent::initializeButtons()
 {
-    button.onClick = []() { PositionApplication::getApplication().openTestWindow(); };
+    buttonOpen_.onClick  = []() { PositionApplication::getApplication().openTestWindow();  };
+    buttonClose_.onClick = []() { PositionApplication::getApplication().closeTestWindow(); };
 }
 
 // -----------------------------------------------------------------------------------------------------------

@@ -4,14 +4,7 @@
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
   <MAINGROUP id="S0MlEU" name="WindowPosition">
     <GROUP id="{CC64F34F-A9A9-761F-8393-025E6ED128E2}" name="Source">
-      <FILE id="Up3RXf" name="BaseComponent.cpp" compile="1" resource="0"
-            file="Source/BaseComponent.cpp"/>
-      <FILE id="xTC5L2" name="BaseComponent.hpp" compile="0" resource="0"
-            file="Source/BaseComponent.hpp"/>
       <FILE id="QpHg0b" name="BaseWindow.hpp" compile="0" resource="0" file="Source/BaseWindow.hpp"/>
-      <FILE id="FCn4Ab" name="Commands.cpp" compile="1" resource="0" file="Source/Commands.cpp"/>
-      <FILE id="CV8ubB" name="Commands.hpp" compile="0" resource="0" file="Source/Commands.hpp"/>
-      <FILE id="Y1b4KI" name="LookAndFeel.hpp" compile="0" resource="0" file="Source/LookAndFeel.hpp"/>
       <FILE id="klvk4n" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="Rhqwgj" name="Main.hpp" compile="0" resource="0" file="Source/Main.hpp"/>
       <FILE id="zsxKxR" name="MainComponent.cpp" compile="1" resource="0"
@@ -19,10 +12,6 @@
       <FILE id="ezrMu8" name="MainComponent.hpp" compile="0" resource="0"
             file="Source/MainComponent.hpp"/>
       <FILE id="Z37OSf" name="MainWindow.hpp" compile="0" resource="0" file="Source/MainWindow.hpp"/>
-      <FILE id="J1gvkx" name="MenuModel.cpp" compile="1" resource="0" file="Source/MenuModel.cpp"/>
-      <FILE id="lRLz5l" name="MenuModel.hpp" compile="0" resource="0" file="Source/MenuModel.hpp"/>
-      <FILE id="Uhja3v" name="TestComponent.hpp" compile="0" resource="0"
-            file="Source/TestComponent.hpp"/>
       <FILE id="Jx0jPW" name="TestWindow.cpp" compile="1" resource="0" file="Source/TestWindow.cpp"/>
       <FILE id="ZOKXu4" name="TestWindow.hpp" compile="0" resource="0" file="Source/TestWindow.hpp"/>
     </GROUP>
@@ -42,6 +31,19 @@
         <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="~/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="~/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
   </EXPORTFORMATS>
   <MODULES>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>

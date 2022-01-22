@@ -28,11 +28,9 @@ public:
 // MARK: -
 
 public:
-    void makeVisible (juce::Rectangle<int> window = juce::Rectangle<int>())
+    void makeVisible (juce::Rectangle<int> bounds)
     {
-        if (!window.isEmpty()) { setBounds (window); }
-    
-        setVisible (true); addToDesktop(); toFront (true);
+        setBounds (bounds); setVisible (true); addToDesktop(); toFront (true);
     }
 
 private:

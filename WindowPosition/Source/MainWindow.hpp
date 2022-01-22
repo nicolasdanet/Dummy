@@ -20,7 +20,7 @@ public:
     {
         setContentOwned (new MainComponent(), true);
         
-        makeVisible();
+        makeVisible (juce::Rectangle<int> (0, 0, 300, 200));
     }
 
     ~MainWindow() = default;

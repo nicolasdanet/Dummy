@@ -2,39 +2,44 @@
 #pragma once
 
 #include <JuceHeader.h>
-#include "BaseWindow.hpp"
-#include "TestComponent.hpp"
 
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
-class TestWindow : public BaseWindow {
+class TestComponent : public juce::Component {
 
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
 public:
-    explicit TestWindow () : BaseWindow ("Test")
+    explicit TestComponent()
     {
-        setContentOwned (new TestComponent(), true);
-        
-        makeVisible (juce::Rectangle<int> (300, 300, 300, 200));
+        setOpaque (true); setSize (300, 200);
+    }
+    
+    ~TestComponent() = default;
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
+
+public:
+    void paint (juce::Graphics& g) override
+    {
+        g.fillAll (juce::Colours::orange);
+    }
+    
+    void resized() override
+    {
+
     }
 
-    ~TestWindow() = default;
-    
-// -----------------------------------------------------------------------------------------------------------
-// -----------------------------------------------------------------------------------------------------------
-// MARK: -
-
-public:
-    void closeButtonPressed() override;
-
 private:
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestWindow)
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (TestComponent)
 };
-    
+
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------
+

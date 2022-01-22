@@ -12,6 +12,8 @@
       <FILE id="ezrMu8" name="MainComponent.hpp" compile="0" resource="0"
             file="Source/MainComponent.hpp"/>
       <FILE id="Z37OSf" name="MainWindow.hpp" compile="0" resource="0" file="Source/MainWindow.hpp"/>
+      <FILE id="NIvUyN" name="TestComponent.hpp" compile="0" resource="0"
+            file="Source/TestComponent.hpp"/>
       <FILE id="Jx0jPW" name="TestWindow.cpp" compile="1" resource="0" file="Source/TestWindow.cpp"/>
       <FILE id="ZOKXu4" name="TestWindow.hpp" compile="0" resource="0" file="Source/TestWindow.hpp"/>
     </GROUP>

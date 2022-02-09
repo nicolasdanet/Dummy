@@ -10,3 +10,4 @@
 - [PopupCrash](https://forum.juce.com/t/br-menubarcomponent-crash-closing-window/48547)
 - [TotoButton](https://forum.juce.com/t/open-a-popupmenu-and-have-it-show-the-item-in-sub-menu/48708)
 - [WindowPosition](https://forum.juce.com/t/br-wrong-position-for-top-window-when-opened/49805/2)
+- [MessageBox](https://forum.juce.com/t/br-nativemessagebox-broken-on-macos/50100)

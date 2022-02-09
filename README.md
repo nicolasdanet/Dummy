@@ -7,7 +7,7 @@
 - [Drift](https://forum.juce.com/t/br-bug-restoring-window-positions-from-saved-state-on-linux/47980)
 - [Foo](https://forum.juce.com/t/juceapplication-doesnt-receive-keypresses/45788)
 - [MenuCrash](https://forum.juce.com/t/menubarcomponent-crash-in-xcode-debugger/45563)
+- [MessageBox](https://forum.juce.com/t/br-nativemessagebox-broken-on-macos/50100)
 - [PopupCrash](https://forum.juce.com/t/br-menubarcomponent-crash-closing-window/48547)
 - [TotoButton](https://forum.juce.com/t/open-a-popupmenu-and-have-it-show-the-item-in-sub-menu/48708)
 - [WindowPosition](https://forum.juce.com/t/br-wrong-position-for-top-window-when-opened/49805/2)
-- [MessageBox](https://forum.juce.com/t/br-nativemessagebox-broken-on-macos/50100)

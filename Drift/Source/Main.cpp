@@ -1,9 +1,15 @@
 
 #include "MainComponent.h"
 
-//==============================================================================
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
 
 class DriftApplication : public juce::JUCEApplication {
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
 
 public:
     DriftApplication()  = default;
@@ -13,6 +19,10 @@ public:
     const juce::String getApplicationName() override    { return ProjectInfo::projectName; }
     const juce::String getApplicationVersion() override { return ProjectInfo::versionString; }
     bool moreThanOneInstanceAllowed() override          { return true; }
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
 
 public:
     void initialise (const juce::String& commandLine) override
@@ -39,6 +49,11 @@ public:
     {
     }
 
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
+
+public:
     static juce::PropertiesFile* getPreferences()
     {
         DriftApplication* app = dynamic_cast<DriftApplication*> (JUCEApplication::getInstance());
@@ -46,61 +61,71 @@ public:
         return app->preferences_.get();
     }
     
-//==============================================================================
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
+
+class MainWindow : public juce::DocumentWindow {
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
+
+public:
+    MainWindow (juce::String name)
+        : DocumentWindow (name,
+                          juce::Desktop::getInstance().getDefaultLookAndFeel()
+                                                      .findColour (juce::ResizableWindow::backgroundColourId),
+                          DocumentWindow::allButtons,
+                          false)
+    {
+        setUsingNativeTitleBar (true);
+        setResizable (true, true);
+        setContentOwned (new MainComponent(), true);
+        
+        makeVisible();
+    }
+
+    ~MainWindow()
+    {
+        juce::PropertiesFile* preferences = DriftApplication::getPreferences();
+        
+        preferences->setValue ("Position", juce::var (getWindowStateAsString()));
+        
+        DBG (juce::String ("Save / ") + preferences->getValue ("Position"));
+    }
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
 
 private:
-    class MainWindow : public juce::DocumentWindow {
+    void closeButtonPressed() override
+    {
+        JUCEApplication::getInstance()->systemRequestedQuit();
+    }
+
+    void makeVisible()
+    {
+        juce::PropertiesFile* preferences = DriftApplication::getPreferences();
     
-    public:
-        MainWindow (juce::String name)
-            : DocumentWindow (name,
-                              juce::Desktop::getInstance().getDefaultLookAndFeel()
-                                                          .findColour (juce::ResizableWindow::backgroundColourId),
-                              DocumentWindow::allButtons,
-                              false)
-        {
-            setUsingNativeTitleBar (true);
-            setResizable (true, true);
-            setContentOwned (new MainComponent(), true);
-            
-            makeVisible();
-        }
+        const juce::String s = preferences->getValue ("Position");
 
-        ~MainWindow()
-        {
-            juce::PropertiesFile* preferences = DriftApplication::getPreferences();
-            
-            preferences->setValue ("Position", juce::var (getWindowStateAsString()));
-            
-            DBG (juce::String ("Save / ") + preferences->getValue ("Position"));
-        }
-        
-        void closeButtonPressed() override
-        {
-            JUCEApplication::getInstance()->systemRequestedQuit();
-        }
-
-    private:
-        void makeVisible()
-        {
-            juce::PropertiesFile* preferences = DriftApplication::getPreferences();
-        
-            const juce::String s = preferences->getValue ("Position");
-
-            if (s.isNotEmpty()) { DBG (juce::String ("Load / ") + s); restoreWindowStateFromString (s); }
-        
-            setVisible (true); addToDesktop(); toFront (true);
-        }
-        
-    private:
-        JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainWindow)
-    };
+        if (s.isNotEmpty()) { DBG (juce::String ("Load / ") + s); restoreWindowStateFromString (s); }
+    
+        setVisible (true); addToDesktop(); toFront (true);
+    }
+    
+private:
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainWindow)
+};
 
 private:
     std::unique_ptr<juce::PropertiesFile> preferences_;
     std::unique_ptr<MainWindow> mainWindow_;
 };
 
-//==============================================================================
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
 
 START_JUCE_APPLICATION (DriftApplication)

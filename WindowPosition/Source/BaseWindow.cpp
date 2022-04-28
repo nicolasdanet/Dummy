@@ -1,15 +1,23 @@
 
-#include "MainComponent.hpp"
+#include "BaseWindow.hpp"
 #include "Main.hpp"
 
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
-void MainComponent::initializeButtons()
+void BaseWindow::makeVisible (juce::Rectangle<int> bounds)
 {
-    buttonOpen_.onClick  = []() { PositionApplication::getApplication()->openTestWindow();  };
-    buttonClose_.onClick = []() { PositionApplication::getApplication()->closeTestWindow(); };
+    if (!bounds.isEmpty()) { setBounds (bounds); }
+    else {
+        const juce::String s (PositionApplication::getPreferences()->getValue ("Position"));
+
+        if (s.isNotEmpty()) {
+            DBG (s); restoreWindowStateFromString (s);
+        }
+    }
+    
+    setVisible (true); addToDesktop(); toFront (true);
 }
 
 // -----------------------------------------------------------------------------------------------------------

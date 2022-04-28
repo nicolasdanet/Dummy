@@ -34,6 +34,11 @@ public:
     {
         DBG ("Hello!");
 
+        const juce::File t = juce::File::getSpecialLocation (juce::File::currentApplicationFile);
+        const juce::File f = t.getSiblingFile ("preferences.xml");
+        
+        preferences_ = std::make_unique<juce::PropertiesFile> (f, juce::PropertiesFile::Options());
+        
         mainWindow_ = std::make_unique<MainWindow>();
     }
 
@@ -79,17 +84,23 @@ public:
 // MARK: -
 
 public:
-    static PositionApplication& getApplication()
+    static PositionApplication* getApplication()
     {
         PositionApplication* app = dynamic_cast<PositionApplication*> (juce::JUCEApplication::getInstance());
         jassert (app);
-        return *app;
+        return app;
     }
 
+    static juce::PropertiesFile* getPreferences()
+    {
+        return getApplication()->preferences_.get();
+    }
+    
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------
 
 private:
+    std::unique_ptr<juce::PropertiesFile> preferences_;
     std::unique_ptr<MainWindow> mainWindow_;
     std::unique_ptr<TestWindow> testWindow_;
 };

@@ -5,6 +5,7 @@
   <MAINGROUP id="S0MlEU" name="WindowPosition">
     <GROUP id="{CC64F34F-A9A9-761F-8393-025E6ED128E2}" name="Source">
       <FILE id="QpHg0b" name="BaseWindow.hpp" compile="0" resource="0" file="Source/BaseWindow.hpp"/>
+      <FILE id="HOhDBD" name="BaseWindow.cpp" compile="1" resource="0" file="Source/BaseWindow.cpp"/>
       <FILE id="klvk4n" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="Rhqwgj" name="Main.hpp" compile="0" resource="0" file="Source/Main.hpp"/>
       <FILE id="zsxKxR" name="MainComponent.cpp" compile="1" resource="0"

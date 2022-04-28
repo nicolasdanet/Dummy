@@ -6,9 +6,20 @@
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
+TestWindow::~TestWindow()
+{
+    juce::PropertiesFile* preferences = PositionApplication::getPreferences();
+        
+    preferences->setValue ("Position", juce::var (getWindowStateAsString()));
+}
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
+
 void TestWindow::closeButtonPressed()
 {
-    PositionApplication::getApplication().closeTestWindow();
+    PositionApplication::getApplication()->closeTestWindow();
 }
 
 // -----------------------------------------------------------------------------------------------------------

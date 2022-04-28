@@ -28,10 +28,7 @@ public:
 // MARK: -
 
 public:
-    void makeVisible (juce::Rectangle<int> bounds)
-    {
-        setBounds (bounds); setVisible (true); addToDesktop(); toFront (true);
-    }
+    void makeVisible (juce::Rectangle<int> bounds = juce::Rectangle<int>());
 
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (BaseWindow)

@@ -3,6 +3,7 @@
 
     build-essential
     clang
+    
     libasound2-dev
     libjack-jackd2-dev
     ladspa-sdk
@@ -24,6 +25,7 @@
 
     base-devel
     clang
+    
     alsa-lib
     jack2
     ladspa
@@ -45,6 +47,7 @@
     make
     gcc-c++
     clang
+    
     alsa-lib-devel
     libcurl-devel
     freetype-devel

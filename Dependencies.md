@@ -1,7 +1,8 @@
 
 # Debian / RPI OS
 
-    build-essential
+    make
+    g++
     clang
     
     libasound2-dev
@@ -23,7 +24,8 @@
 
 # Arch Linux
 
-    base-devel
+    make
+    gcc
     clang
     
     alsa-lib

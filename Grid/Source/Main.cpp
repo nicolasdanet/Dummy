@@ -73,7 +73,7 @@ public:
 
     void initialise (const juce::String&) override
     {
-        mainWindow_.reset (new MainWindow (getApplicationName()));
+        mainWindow_ = std::make_unique<MainWindow> (getApplicationName());
     }
 
     void shutdown() override

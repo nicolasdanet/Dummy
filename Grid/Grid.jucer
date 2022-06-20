@@ -5,7 +5,8 @@
   <MAINGROUP id="BcYgxU" name="Grid">
     <GROUP id="{F7554B8B-6AEB-D05E-F78D-41336044EE15}" name="Source">
       <FILE id="uBS0cW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
-      <FILE id="djaFU6" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="djaFU6" name="MainComponent.hpp" compile="0" resource="0"
+            file="Source/MainComponent.hpp"/>
       <FILE id="ee4hdS" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
     </GROUP>

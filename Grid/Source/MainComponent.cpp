@@ -55,7 +55,7 @@ juce::Array<juce::Grid::TrackInfo> getTracks (int n, const juce::Grid::TrackInfo
 {
     juce::Array<juce::Grid::TrackInfo> t;
     
-    t.insertMultiple (-1, track, n);
+    jassert (n > 0); t.insertMultiple (-1, track, n);
     
     return t;
 }
@@ -64,14 +64,14 @@ juce::Array<juce::Grid::TrackInfo> getRows (const juce::Rectangle<int>& bounds)
 {
     const int n = bounds.getHeight() / (MainComponent::gap_ + MainComponent::size_);
     
-    return getTracks (n, getRowTrack());
+    return getTracks (juce::jmax (1, n), getRowTrack());
 }
 
 juce::Array<juce::Grid::TrackInfo> getColumns (const juce::Rectangle<int>& bounds)
 {
     const int n = bounds.getWidth() / (MainComponent::gap_ + MainComponent::size_);
     
-    return getTracks (n, getColumnTrack());
+    return getTracks (juce::jmax (1, n), getColumnTrack());
 }
 
 juce::Array<juce::GridItem> getGridItems (const std::vector<std::unique_ptr<ItemComponent>>& components)

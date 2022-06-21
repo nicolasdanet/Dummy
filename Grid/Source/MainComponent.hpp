@@ -14,7 +14,7 @@ class ItemComponent : public juce::Component {
 // MARK: -
 
 public:
-    ItemComponent() : n_ (counter_++)
+    ItemComponent (int n) : n_ (n)
     {
     }
     
@@ -36,9 +36,6 @@ public:
 
 private:
     int n_;
-
-private:
-    static int counter_;
     
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ItemComponent)
@@ -66,6 +63,22 @@ public:
     void paint (juce::Graphics&) override;
     void resized() override;
 
+private:
+    void arrange (const juce::Rectangle<int>& bounds);
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+
+private:
+    std::vector<std::unique_ptr<ItemComponent>> items_;
+
+public:
+    static constexpr int numberOfItems_ = 10;
+
+public:
+    static constexpr int size_ = 40;
+    static constexpr int gap_  = 2;
+    
 private:
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };

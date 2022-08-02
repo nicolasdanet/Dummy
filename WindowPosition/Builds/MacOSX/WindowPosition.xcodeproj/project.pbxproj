@@ -16,7 +16,6 @@
 		585EADDFE180ABE9D8987327 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = EE2846A3B754D29C39D6A270; };
 		61A41E31E17E8356E717683B /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 9067432F631750341640658E; };
 		77A09695F4C6F0C4718C41C8 /* RecentFilesMenuTemplate.nib */ = {isa = PBXBuildFile; fileRef = 372D033DBD60220535C76C23; };
-		7D7F647039BC033163FFDF3D /* Carbon.framework */ = {isa = PBXBuildFile; fileRef = 7593471BEF2E894E99EC0B12; };
 		9FCFBB87DA9118E1D21C9C84 /* BaseWindow.cpp */ = {isa = PBXBuildFile; fileRef = 5352A7AF6A23A1E10473C109; };
 		A7B75B20D72BC00BA7C6C38A /* App */ = {isa = PBXBuildFile; fileRef = 25D8F3E4213FB2FEC8E3DB72; };
 		B8D7D94FC0051D7CDF825231 /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 070343EED1BB0E304D7CB6FE; };
@@ -41,7 +40,6 @@
 		6DF415FC4F808A49C1D67770 /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = "~/JUCE/modules/juce_core"; sourceTree = "<absolute>"; };
 		6E86D0A8819FE96B97F3DFCD /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
 		75845E5F60BC80117B521F1B /* juce_events */ /* juce_events */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_events; path = "~/JUCE/modules/juce_events"; sourceTree = "<absolute>"; };
-		7593471BEF2E894E99EC0B12 /* Carbon.framework */ /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		787CEC207E635614AC3B5974 /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
 		7E5A84BD060D9B9E7622630C /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = "~/JUCE/modules/juce_gui_basics"; sourceTree = "<absolute>"; };
 		8255702144426FC1916A4C4C /* BaseWindow.hpp */ /* BaseWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BaseWindow.hpp; path = ../../Source/BaseWindow.hpp; sourceTree = SOURCE_ROOT; };
@@ -62,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D7F647039BC033163FFDF3D,
 				2DAA63C16C5CF2956F143344,
 				2CBE741D9E2E83A528D48A4D,
 				C823BDD00D8495A97169DC18,
@@ -127,7 +124,6 @@
 		9DC00B150771A9398BFE3FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7593471BEF2E894E99EC0B12,
 				39C1B22A21EA75A941442B4F,
 				373C1F2FF13AD33217C498EE,
 				547DEB2FA93EC5EF8F934A9F,
@@ -191,7 +187,7 @@
 		B1A4FB625FC0AA11020348D7 = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					B41388674A29155096B91E2A = {
@@ -331,7 +327,7 @@
 					"DEBUG=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=0",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60106",
+					"JUCE_PROJUCER_VERSION=0x70001",
 					"JUCE_MODULE_AVAILABLE_juce_core=1",
 					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
 					"JUCE_MODULE_AVAILABLE_juce_events=1",
@@ -347,10 +343,10 @@
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
@@ -363,6 +359,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.WindowPosition;
 				PRODUCT_NAME = "WindowPosition";
 				USE_HEADERMAP = NO;
@@ -388,7 +385,7 @@
 					"NDEBUG=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=0",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60106",
+					"JUCE_PROJUCER_VERSION=0x70001",
 					"JUCE_MODULE_AVAILABLE_juce_core=1",
 					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
 					"JUCE_MODULE_AVAILABLE_juce_events=1",
@@ -404,10 +401,10 @@
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
@@ -421,6 +418,7 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.WindowPosition;
 				PRODUCT_NAME = "WindowPosition";
 				USE_HEADERMAP = NO;

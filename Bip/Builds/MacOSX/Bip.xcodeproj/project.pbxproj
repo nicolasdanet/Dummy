@@ -22,7 +22,6 @@
 		97C18DA9DD2C81A0D54E617D /* QuartzCore.framework */ = {isa = PBXBuildFile; fileRef = 66DA5F27AB511E2245391E51; };
 		9E2439096ADAE0AE24A34CC4 /* include_juce_events.mm */ = {isa = PBXBuildFile; fileRef = 69912533DDCB3AD9A362481E; };
 		D4FA94E7DE74E0CB37A0D409 /* BipMenuModel.cpp */ = {isa = PBXBuildFile; fileRef = 973C820EDD2061FC6D09ACFB; };
-		E17AE58A39A64B654C2A096A /* Carbon.framework */ = {isa = PBXBuildFile; fileRef = 76742BEA8FA5D2D86B9B4E33; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 		69912533DDCB3AD9A362481E /* include_juce_events.mm */ /* include_juce_events.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_events.mm; path = ../../JuceLibraryCode/include_juce_events.mm; sourceTree = SOURCE_ROOT; };
 		6C8FBCA88257571B2A5FE5AF /* MainComponent.hpp */ /* MainComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainComponent.hpp; path = ../../Source/MainComponent.hpp; sourceTree = SOURCE_ROOT; };
 		6CFC80846A72E7F4763C6DF8 /* BipCommands.hpp */ /* BipCommands.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BipCommands.hpp; path = ../../Source/BipCommands.hpp; sourceTree = SOURCE_ROOT; };
-		76742BEA8FA5D2D86B9B4E33 /* Carbon.framework */ /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		76B759C69AA5FD9CE6A36A08 /* juce_data_structures */ /* juce_data_structures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_data_structures; path = "~/JUCE/modules/juce_data_structures"; sourceTree = "<absolute>"; };
 		77C8A3FE9C86EA580A849A7D /* include_juce_graphics.mm */ /* include_juce_graphics.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_graphics.mm; path = ../../JuceLibraryCode/include_juce_graphics.mm; sourceTree = SOURCE_ROOT; };
 		7DCC504D9E15F2B8409A4541 /* BipComponent.hpp */ /* BipComponent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BipComponent.hpp; path = ../../Source/BipComponent.hpp; sourceTree = SOURCE_ROOT; };
@@ -63,7 +61,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E17AE58A39A64B654C2A096A,
 				2AF600AD0EB63275AAB63937,
 				8D2E30F5678F40636EF7906B,
 				618CF7BC7ABB776721953A14,
@@ -89,7 +86,6 @@
 		3503BFC52ED9CC5A6BCDE4A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				76742BEA8FA5D2D86B9B4E33,
 				4681933E59BBAF6F7093BED0,
 				9CE666F728C7EFC786419503,
 				EBC547B780EDF009CAF5D1F1,
@@ -193,7 +189,7 @@
 		DAC4FAF0C5BE9EEBAB7CA193 = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1340;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					FC867863958BA90973177547 = {
@@ -318,7 +314,7 @@
 		5225B8C553D56DDF15F90388 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -333,7 +329,7 @@
 					"DEBUG=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=0",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60106",
+					"JUCE_PROJUCER_VERSION=0x70002",
 					"JUCE_MODULE_AVAILABLE_juce_core=1",
 					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
 					"JUCE_MODULE_AVAILABLE_juce_events=1",
@@ -349,10 +345,10 @@
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
@@ -365,6 +361,7 @@
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Bip;
 				PRODUCT_NAME = "Bip";
 				USE_HEADERMAP = NO;
@@ -424,7 +421,7 @@
 		C1E603D39AB89CC34169100D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -439,7 +436,7 @@
 					"NDEBUG=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=0",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x60106",
+					"JUCE_PROJUCER_VERSION=0x70002",
 					"JUCE_MODULE_AVAILABLE_juce_core=1",
 					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
 					"JUCE_MODULE_AVAILABLE_juce_events=1",
@@ -455,10 +452,10 @@
 					"JucePlugin_Build_VST3=0",
 					"JucePlugin_Build_AU=0",
 					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
 					"JucePlugin_Build_AAX=0",
 					"JucePlugin_Build_Standalone=0",
 					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Build_LV2=0",
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
@@ -472,6 +469,7 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
+				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Bip;
 				PRODUCT_NAME = "Bip";
 				USE_HEADERMAP = NO;

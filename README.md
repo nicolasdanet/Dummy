@@ -4,6 +4,7 @@
  Bugs hunting or demo for the [JUCE's forum](https://forum.juce.com/).
 
 - [Bip](https://forum.juce.com/t/br-alert-sound-selecting-an-item-in-mac-menu/48066)
+- [CallOut](https://forum.juce.com/t/br-dismiss-calloutbox-disable-menu-commands-shortcuts/55136)
 - [Drift](https://forum.juce.com/t/br-bug-restoring-window-positions-from-saved-state-on-linux/47980)
 - [Foo](https://forum.juce.com/t/juceapplication-doesnt-receive-keypresses/45788)
 - [Grid](https://forum.juce.com/t/br-juce-grid-hangs-performing-layout/51878)

@@ -16,6 +16,7 @@
 		4336299BB693662C5A31349F /* BipCommands.cpp */ = {isa = PBXBuildFile; fileRef = FDEA02EB6E587D567CA4D76A; };
 		52509517EEDB2787AF1062A3 /* include_juce_core.mm */ = {isa = PBXBuildFile; fileRef = 0F97C6913EEB4B22C9A520EF; };
 		618CF7BC7ABB776721953A14 /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = EBC547B780EDF009CAF5D1F1; };
+		6F6B3CCF20D5C4B711607CD4 /* Security.framework */ = {isa = PBXBuildFile; fileRef = BCF97748BBEEE89B3E3A2D62; };
 		7A3A15C43BEB72F17400B356 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 77C8A3FE9C86EA580A849A7D; };
 		7F15DA9E15C914964E99EC2E /* include_juce_gui_basics.mm */ = {isa = PBXBuildFile; fileRef = 896F003321CDB96816079D53; };
 		8D2E30F5678F40636EF7906B /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = 9CE666F728C7EFC786419503; };
@@ -48,6 +49,7 @@
 		9CE666F728C7EFC786419503 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A7463DB2E323F6A545451472 /* juce_gui_basics */ /* juce_gui_basics */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_gui_basics; path = "~/JUCE/modules/juce_gui_basics"; sourceTree = "<absolute>"; };
 		B376BCC84ED7CA6952EA7904 /* juce_core */ /* juce_core */ = {isa = PBXFileReference; lastKnownFileType = folder; name = juce_core; path = "~/JUCE/modules/juce_core"; sourceTree = "<absolute>"; };
+		BCF97748BBEEE89B3E3A2D62 /* Security.framework */ /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CB4F486DC9AA712F30730AC9 /* include_juce_data_structures.mm */ /* include_juce_data_structures.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_data_structures.mm; path = ../../JuceLibraryCode/include_juce_data_structures.mm; sourceTree = SOURCE_ROOT; };
 		D6638AEA685247EBF6233ECB /* BipMenuModel.hpp */ /* BipMenuModel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BipMenuModel.hpp; path = ../../Source/BipMenuModel.hpp; sourceTree = SOURCE_ROOT; };
 		E5B4553D06E45C37E12AC824 /* BipComponent.cpp */ /* BipComponent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = BipComponent.cpp; path = ../../Source/BipComponent.cpp; sourceTree = SOURCE_ROOT; };
@@ -65,6 +67,7 @@
 				8D2E30F5678F40636EF7906B,
 				618CF7BC7ABB776721953A14,
 				97C18DA9DD2C81A0D54E617D,
+				6F6B3CCF20D5C4B711607CD4,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,7 @@
 				9CE666F728C7EFC786419503,
 				EBC547B780EDF009CAF5D1F1,
 				66DA5F27AB511E2245391E51,
+				BCF97748BBEEE89B3E3A2D62,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,7 +289,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = NO;
@@ -317,7 +320,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
@@ -329,7 +331,7 @@
 					"DEBUG=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=0",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x70002",
+					"JUCE_PROJUCER_VERSION=0x70005",
 					"JUCE_MODULE_AVAILABLE_juce_core=1",
 					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
 					"JUCE_MODULE_AVAILABLE_juce_events=1",
@@ -359,7 +361,7 @@
 				INFOPLIST_FILE = Info-App.plist;
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
 				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Bip;
@@ -391,7 +393,6 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = NO;
@@ -424,7 +425,6 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
@@ -436,7 +436,7 @@
 					"NDEBUG=1",
 					"JUCE_DISPLAY_SPLASH_SCREEN=0",
 					"JUCE_USE_DARK_SPLASH_SCREEN=1",
-					"JUCE_PROJUCER_VERSION=0x70002",
+					"JUCE_PROJUCER_VERSION=0x70005",
 					"JUCE_MODULE_AVAILABLE_juce_core=1",
 					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
 					"JUCE_MODULE_AVAILABLE_juce_events=1",
@@ -467,7 +467,7 @@
 				INFOPLIST_PREPROCESS = NO;
 				INSTALL_PATH = "$(HOME)/Applications";
 				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(HOME)/JUCE/modules";
 				OTHER_LDFLAGS = "-weak_framework Metal -weak_framework MetalKit";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Bip;

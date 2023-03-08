@@ -40,6 +40,7 @@ MainWindow::MainWindow (const juce::String& name) :
     setResizable (true, true);
     centreWithSize (getWidth(), getHeight());
     setVisible (true);
+    toFront (true);
     grabFocus (getContentComponent());
 }
 

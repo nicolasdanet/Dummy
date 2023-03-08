@@ -7,6 +7,7 @@
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------
 
+#include "BoxComponent.hpp"
 #include "Commands.hpp"
 #include "Main.hpp"
 
@@ -26,6 +27,20 @@ BaseComponent::BaseComponent()
 BaseComponent::~BaseComponent()
 {
     removeKeyListener (BaseComponent::getCommandManager()->getKeyMappings());
+}
+
+// -----------------------------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------------------
+// MARK: -
+
+void BaseComponent::openCallOutBox()
+{
+    auto r = juce::Rectangle<int> (4, 4).withCentre (getScreenBounds().getCentre());
+    auto t = std::make_unique<BoxComponent>();
+    
+    t->setSize (100, 50);
+
+    juce::CallOutBox::launchAsynchronously (std::move (t), r, nullptr);
 }
 
 // -----------------------------------------------------------------------------------------------------------
@@ -71,7 +86,7 @@ void BaseComponent::getCommandInfo (const juce::CommandID c, juce::ApplicationCo
 
 bool BaseComponent::perform (const juce::ApplicationCommandTarget::InvocationInfo& info)
 {
-    if (info.commandID == Commands::bar) { DBG ("Foo!"); return true; }
+    if (info.commandID == Commands::bar) { DBG ("Foo!"); openCallOutBox(); return true; }
     
     return Commands::perform (info);
 }

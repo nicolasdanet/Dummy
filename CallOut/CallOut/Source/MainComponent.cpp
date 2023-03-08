@@ -18,7 +18,7 @@ MainComponent::MainComponent() : BaseComponent()
 
     #endif
 
-    setOpaque (true); setSize (500, 300);
+    setOpaque (true); setSize (400, 300);
 }
 
 // -----------------------------------------------------------------------------------------------------------
@@ -27,9 +27,16 @@ MainComponent::MainComponent() : BaseComponent()
 
 void MainComponent::paint (juce::Graphics& g)
 {
-    g.fillAll (juce::Colours::darkgrey);
-}
+    const juce::Rectangle<int> r (getLocalBounds());
+    const juce::String text ("Press Escape Key");
     
+    g.setColour (juce::Colours::darkgrey);
+    g.fillRect (r);
+    g.setColour (juce::Colours::white);
+    g.setFont (juce::Font (18.0f));
+    g.drawText (text, r, juce::Justification::centred, true);
+}
+
 void MainComponent::resized()
 {
     #if !( MENUBAR_GLOBAL )
@@ -40,6 +47,6 @@ void MainComponent::resized()
     
     #endif
 }
-    
+
 // -----------------------------------------------------------------------------------------------------------
 // -----------------------------------------------------------------------------------------------------------

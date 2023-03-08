@@ -9,6 +9,8 @@
       <FILE id="ABpzU4" name="Commands.cpp" compile="1" resource="0" file="Source/Commands.cpp"/>
       <FILE id="XelMbc" name="MenuModel.hpp" compile="0" resource="0" file="Source/MenuModel.hpp"/>
       <FILE id="nrqx3z" name="MenuModel.cpp" compile="1" resource="0" file="Source/MenuModel.cpp"/>
+      <FILE id="N9IZDd" name="BoxComponent.hpp" compile="0" resource="0"
+            file="Source/BoxComponent.hpp"/>
       <FILE id="ocWvz3" name="BaseComponent.hpp" compile="0" resource="0"
             file="Source/BaseComponent.hpp"/>
       <FILE id="ZKnRQL" name="BaseComponent.cpp" compile="1" resource="0"

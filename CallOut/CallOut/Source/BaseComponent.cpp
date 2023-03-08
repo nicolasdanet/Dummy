@@ -71,6 +71,8 @@ void BaseComponent::getCommandInfo (const juce::CommandID c, juce::ApplicationCo
 
 bool BaseComponent::perform (const juce::ApplicationCommandTarget::InvocationInfo& info)
 {
+    if (info.commandID == Commands::bar) { DBG ("Foo!"); return true; }
+    
     return Commands::perform (info);
 }
 

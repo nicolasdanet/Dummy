@@ -30,13 +30,6 @@ void Commands::getCommandInfo (const juce::CommandID c, juce::ApplicationCommand
 
 bool Commands::perform (const juce::ApplicationCommandTarget::InvocationInfo& info)
 {
-    switch (info.commandID) {
-    //
-    case Commands::bar : DBG ("Bar!"); return true;
-    default : break;
-    //
-    }
-
     return false;
 }
 

@@ -8,7 +8,7 @@
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
-MainComponent::MainComponent() : BaseComponent()
+MainComponent::MainComponent()
 {
     #if !( MENUBAR_GLOBAL )
 
@@ -27,14 +27,8 @@ MainComponent::MainComponent() : BaseComponent()
 
 void MainComponent::paint (juce::Graphics& g)
 {
-    const juce::Rectangle<int> r (getLocalBounds());
-    const juce::String text ("Press Escape Key");
+    g.fillAll (juce::Colours::darkgrey);
     
-    g.setColour (juce::Colours::darkgrey);
-    g.fillRect (r);
-    g.setColour (juce::Colours::white);
-    g.setFont (juce::Font (18.0f));
-    g.drawText (text, r, juce::Justification::centred, true);
 }
 
 void MainComponent::resized()

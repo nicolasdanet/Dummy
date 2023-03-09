@@ -74,6 +74,9 @@ endif
 OBJECTS_APP := \
   $(JUCE_OBJDIR)/Commands_fe28c111.o \
   $(JUCE_OBJDIR)/MenuModel_c043796b.o \
+  $(JUCE_OBJDIR)/BaseComponent_c1793a8d.o \
+  $(JUCE_OBJDIR)/CallComponent_ca33b420.o \
+  $(JUCE_OBJDIR)/CallWindow_643c7277.o \
   $(JUCE_OBJDIR)/MainComponent_a6ffb4a5.o \
   $(JUCE_OBJDIR)/MainWindow_499ac812.o \
   $(JUCE_OBJDIR)/Main_90ebc5c2.o \
@@ -104,6 +107,21 @@ $(JUCE_OBJDIR)/Commands_fe28c111.o: ../../Source/Commands.cpp
 $(JUCE_OBJDIR)/MenuModel_c043796b.o: ../../Source/MenuModel.cpp
 	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
 	@echo "Compiling MenuModel.cpp"
+	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_APP) $(JUCE_CFLAGS_APP) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/BaseComponent_c1793a8d.o: ../../Source/BaseComponent.cpp
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling BaseComponent.cpp"
+	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_APP) $(JUCE_CFLAGS_APP) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/CallComponent_ca33b420.o: ../../Source/CallComponent.cpp
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling CallComponent.cpp"
+	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_APP) $(JUCE_CFLAGS_APP) -o "$@" -c "$<"
+
+$(JUCE_OBJDIR)/CallWindow_643c7277.o: ../../Source/CallWindow.cpp
+	-$(V_AT)mkdir -p $(JUCE_OBJDIR)
+	@echo "Compiling CallWindow.cpp"
 	$(V_AT)$(CXX) $(JUCE_CXXFLAGS) $(JUCE_CPPFLAGS_APP) $(JUCE_CFLAGS_APP) -o "$@" -c "$<"
 
 $(JUCE_OBJDIR)/MainComponent_a6ffb4a5.o: ../../Source/MainComponent.cpp

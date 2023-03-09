@@ -9,6 +9,18 @@
       <FILE id="ABpzU4" name="Commands.cpp" compile="1" resource="0" file="Source/Commands.cpp"/>
       <FILE id="XelMbc" name="MenuModel.hpp" compile="0" resource="0" file="Source/MenuModel.hpp"/>
       <FILE id="nrqx3z" name="MenuModel.cpp" compile="1" resource="0" file="Source/MenuModel.cpp"/>
+      <FILE id="pEwaIz" name="CallOutBoxComponent.hpp" compile="0" resource="0"
+            file="Source/CallOutBoxComponent.hpp"/>
+      <FILE id="aoiQjb" name="BaseComponent.hpp" compile="0" resource="0"
+            file="Source/BaseComponent.hpp"/>
+      <FILE id="KBIlzh" name="BaseComponent.cpp" compile="1" resource="0"
+            file="Source/BaseComponent.cpp"/>
+      <FILE id="fMIVYk" name="CallComponent.hpp" compile="0" resource="0"
+            file="Source/CallComponent.hpp"/>
+      <FILE id="qq1YXQ" name="CallComponent.cpp" compile="1" resource="0"
+            file="Source/CallComponent.cpp"/>
+      <FILE id="AV1KKC" name="CallWindow.hpp" compile="0" resource="0" file="Source/CallWindow.hpp"/>
+      <FILE id="qB1A8O" name="CallWindow.cpp" compile="1" resource="0" file="Source/CallWindow.cpp"/>
       <FILE id="S5s8Hw" name="MainComponent.hpp" compile="0" resource="0"
             file="Source/MainComponent.hpp"/>
       <FILE id="YsJZRh" name="MainComponent.cpp" compile="1" resource="0"

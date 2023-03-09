@@ -11,6 +11,7 @@
 
 #include "Commands.hpp"
 #include "MenuModel.hpp"
+#include "CallWindow.hpp"
 #include "MainWindow.hpp"
 
 // -----------------------------------------------------------------------------------------------------------
@@ -58,6 +59,7 @@ public:
         commandManager_ = std::make_unique<juce::ApplicationCommandManager>();
         menu_           = std::make_unique<MenuModel> (commandManager_.get());
         mainWindow_     = std::make_unique<MainWindow> (getApplicationName());
+        callWindow_     = std::make_unique<CallWindow> ("Foo");
         
         commandManager_->registerAllCommandsForTarget (this);
 
@@ -76,6 +78,7 @@ public:
         
         #endif
         
+        callWindow_     = nullptr;
         mainWindow_     = nullptr;
         menu_           = nullptr;
         commandManager_ = nullptr;
@@ -126,6 +129,7 @@ public:
     
 private:
     std::unique_ptr<MainWindow> mainWindow_;
+    std::unique_ptr<CallWindow> callWindow_;
 };
 
 // -----------------------------------------------------------------------------------------------------------

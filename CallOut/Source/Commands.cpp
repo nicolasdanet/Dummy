@@ -30,7 +30,7 @@ void Commands::getCommandInfo (const juce::CommandID c, juce::ApplicationCommand
 
 bool Commands::perform (const juce::ApplicationCommandTarget::InvocationInfo& info)
 {
-    return false;
+    return true;
 }
 
 // -----------------------------------------------------------------------------------------------------------

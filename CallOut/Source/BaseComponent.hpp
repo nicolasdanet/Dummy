@@ -33,7 +33,7 @@ private:
 // -----------------------------------------------------------------------------------------------------------
 // MARK: -
 
-protected:
+public:
     static juce::ApplicationCommandManager* getCommandManager();
     static juce::MenuBarModel* getMenuModel();
     

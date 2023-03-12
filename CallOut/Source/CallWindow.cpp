@@ -42,6 +42,13 @@ CallWindow::CallWindow (const juce::String& name) :
     setVisible (true);
     
     grabFocus (getContentComponent());
+    
+    addKeyListener (BaseComponent::getCommandManager()->getKeyMappings());
+}
+
+CallWindow::~CallWindow()
+{
+    removeKeyListener (BaseComponent::getCommandManager()->getKeyMappings());
 }
 
 // -----------------------------------------------------------------------------------------------------------

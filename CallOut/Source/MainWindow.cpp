@@ -14,7 +14,6 @@ MainWindow::MainWindow (const juce::String& name) :
     setUsingNativeTitleBar (true);
     setContentOwned (new MainComponent(), true);
     setResizable (true, true);
-    //centreWithSize (getWidth(), getHeight());
     setVisible (true);
 }
 

@@ -19,14 +19,12 @@ BaseComponent::BaseComponent()
 {
     BaseComponent::getCommandManager()->registerAllCommandsForTarget (this);
     
-    addKeyListener (BaseComponent::getCommandManager()->getKeyMappings());
-    
     setWantsKeyboardFocus (true);
 }
 
 BaseComponent::~BaseComponent()
 {
-    removeKeyListener (BaseComponent::getCommandManager()->getKeyMappings());
+
 }
 
 // -----------------------------------------------------------------------------------------------------------

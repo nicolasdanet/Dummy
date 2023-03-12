@@ -10,14 +10,6 @@
 
 MainComponent::MainComponent()
 {
-    #if !( MENUBAR_GLOBAL )
-
-    menuBar_ = std::make_unique<juce::MenuBarComponent> (getMenuModel());
-
-    addAndMakeVisible (menuBar_.get());
-
-    #endif
-    
     setOpaque (true); setSize (200, 100);
 }
 
@@ -32,13 +24,7 @@ void MainComponent::paint (juce::Graphics& g)
 
 void MainComponent::resized()
 {
-    #if !( MENUBAR_GLOBAL )
-    
-    const int h = juce::LookAndFeel::getDefaultLookAndFeel().getDefaultMenuBarHeight();
-    
-    menuBar_->setBounds (getLocalBounds().removeFromTop (h));
-    
-    #endif
+
 }
 
 // -----------------------------------------------------------------------------------------------------------

@@ -15,9 +15,13 @@
 
 [Real World Technologies - Forums - Thread: Nuances related to Spinlock implementation and the Linux Scheduler](https://www.realworldtech.com/forum/?threadid=189711&curpostid=189723)
 
+[Correctly Implementing a Spinlock in C++ | Erik Rigtorp](https://rigtorp.se/spinlock/)
+
 [Spinlocks Considered Harmful](https://matklad.github.io/2020/01/02/spinlocks-considered-harmful.html)
 
 [In Praise of Idleness | Random ASCII – tech blog of Bruce Dawson](https://randomascii.wordpress.com/2012/06/05/in-praise-of-idleness/)
+
+[Auto-vectorization with gcc 4.7](https://locklessinc.com/articles/vectorize/)
 
 [Efficient and Predictable Thread Synchronization Mechanisms for Mixed-Criticality Systems on Shared-Memory Multi-Processor Platforms - Zuepke\_thesis\_pdfa-1.pdf](https://kola.opus.hbz-nrw.de/frontdoor/deliver/index/docId/2140/file/Zuepke_thesis_pdfa-1.pdf)
 
@@ -107,6 +111,10 @@
 
 * * *
 
+[Smarter Cpp Atomic Smart Pointers - Efficient Concurrent Memory Management - Daniel Anderson CppCon - YouTube](https://www.youtube.com/watch?v=OS7Asaa6zmY)
+
+* * *
+
 [Introduction to Lock-free Programming - Tony van Eerd - YouTube](https://www.youtube.com/watch?v=RWCadBJ6wTk)
 
 [CppCon 2014: Tony Van Eerd "Lock-free by Example" - YouTube](https://www.youtube.com/watch?v=Xf35TLFKiO8)
@@ -119,23 +127,33 @@
 
 [std::jthread - I Told You Concurrency Is Tricky - Nico Josuttis \[ ACCU 2021 \] - YouTube](https://www.youtube.com/watch?v=ln5ERAVXEMY)
 
-[CppCon 2016: JF Bastien “No Sane Compiler Would Optimize Atomics" - YouTube](https://www.youtube.com/watch?v=IB57wIf9W1k)
-
-[Deprecating volatile - JF Bastien - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=KJW_DLaVXIY)
-
 [Matthias Killat - Lock-free programming for real-time systems - Meeting C++ 2021 - YouTube](https://www.youtube.com/watch?v=j2AgjFSFgRc)
 
 [Keren Censor-Hillel - Are Lock-Free Algorithms Practically Wait-Free? - YouTube](https://www.youtube.com/watch?v=v3Ec0rrJ_UI)
 
 [The Foundation of C++ Atomics: The Knowledge You Need to Correctly Use C++ Atomics - Filipe Mulonde - YouTube](https://www.youtube.com/watch?v=BfEnMRWLjgQ)
 
-[Safety: off --- How not to shoot yourself in the foot with C++ atomics - Anthony Williams - YouTube](https://www.youtube.com/watch?v=ce_2AWH7UJU)
+* * *
+
+[Type punning in modern C++ - Timur Doumler - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=_qzMpk-22cc)
+
+[CppCon 2016: JF Bastien “No Sane Compiler Would Optimize Atomics" - YouTube](https://www.youtube.com/watch?v=IB57wIf9W1k)
+
+[CppCon 2018: JF Bastien “Signed integers are two's complement” - YouTube](https://www.youtube.com/watch?v=JhUxIVf1qok)
+
+[Deprecating volatile - JF Bastien - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=KJW_DLaVXIY)
 
 * * *
+
+[Back to Basics: Concurrency - Mike Shah - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=pfIC-kle4b0)
 
 [Modern C++ (cpp) Concurrency - YouTube](https://www.youtube.com/playlist?list=PLvv0ScY6vfd_ocTP2ZLicgqKnvq50OCXM)
 
+[Back to Basics: Concurrency - Arthur O'Dwyer - CppCon 2020 - YouTube](https://www.youtube.com/watch?v=F6Ipn7gCOsY)
+
 * * *
+
+[Safety: off --- How not to shoot yourself in the foot with C++ atomics - Anthony Williams - YouTube](https://www.youtube.com/watch?v=ce_2AWH7UJU)
 
 [CppCon 2016: Anthony Williams “The Continuing Future of C++ Concurrency" - YouTube](https://www.youtube.com/watch?v=FaHJOkOrfNo)
 
@@ -163,6 +181,8 @@
 
 [code::dive conference 2014 - Scott Meyers: Cpu Caches and Why You Care - YouTube](https://www.youtube.com/watch?v=WDIkqP4JbkE)
 
+[An Engineering Approach to Optimising C++ - Dave Rowland - C++ on Sea 2023 - YouTube](https://www.youtube.com/watch?app=desktop&v=TEeBcjKZhfg&pp=ygUUI2xhenlfaW5pdGlhbGl6YXRpb24%3D&themeRefresh=1)
+
 * * *
 
 [CppCon 2014: Chandler Carruth "Efficiency with Algorithms, Performance with Data Structures" - YouTube](https://www.youtube.com/watch?v=fHNmRkzxHWs)
@@ -180,3 +200,11 @@
 [CppCon 2019: Chandler Carruth “There Are No Zero-cost Abstractions” - YouTube](https://www.youtube.com/watch?v=rHIkrotSwcc)
 
 [Understanding Compiler Optimization - Chandler Carruth - Opening Keynote Meeting C++ 2015 - YouTube](https://www.youtube.com/watch?v=FnGCDLhaxKU)
+
+* * *
+
+[CppCon 2018: Matt Godbolt “The Bits Between the Bits: How We Get to main()” - YouTube](https://www.youtube.com/watch?v=dOfucXtyEsU)
+
+[C++Now 2018: Matt Godbolt “What Else Has My Compiler Done For Me Lately?” - YouTube](https://www.youtube.com/watch?v=nAbCKa0FzjQ)
+
+[KEYNOTE: What Everyone Should Know About How Amazing Compilers Are - Matt Godbolt \[C++ on Sea 2019\] - YouTube](https://www.youtube.com/watch?v=w0sz5WbS5AM)

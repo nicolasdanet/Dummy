@@ -1,4 +1,6 @@
 
+* * *
+
 ### RealTime
 
 * * *
@@ -24,8 +26,6 @@
 [Auto-vectorization with gcc 4.7](https://locklessinc.com/articles/vectorize/)
 
 [Efficient and Predictable Thread Synchronization Mechanisms for Mixed-Criticality Systems on Shared-Memory Multi-Processor Platforms - Zuepke\_thesis\_pdfa-1.pdf](https://kola.opus.hbz-nrw.de/frontdoor/deliver/index/docId/2140/file/Zuepke_thesis_pdfa-1.pdf)
-
-[C++ Concurrency in Action, Second Edition](https://www.manning.com/books/c-plus-plus-concurrency-in-action-second-edition)
 
 * * *
 
@@ -111,10 +111,6 @@
 
 * * *
 
-[Smarter Cpp Atomic Smart Pointers - Efficient Concurrent Memory Management - Daniel Anderson CppCon - YouTube](https://www.youtube.com/watch?v=OS7Asaa6zmY)
-
-* * *
-
 [Introduction to Lock-free Programming - Tony van Eerd - YouTube](https://www.youtube.com/watch?v=RWCadBJ6wTk)
 
 [CppCon 2014: Tony Van Eerd "Lock-free by Example" - YouTube](https://www.youtube.com/watch?v=Xf35TLFKiO8)
@@ -125,13 +121,23 @@
 
 * * *
 
+[Smarter Cpp Atomic Smart Pointers - Efficient Concurrent Memory Management - Daniel Anderson CppCon - YouTube](https://www.youtube.com/watch?v=OS7Asaa6zmY)
+
 [std::jthread - I Told You Concurrency Is Tricky - Nico Josuttis \[ ACCU 2021 \] - YouTube](https://www.youtube.com/watch?v=ln5ERAVXEMY)
 
 [Matthias Killat - Lock-free programming for real-time systems - Meeting C++ 2021 - YouTube](https://www.youtube.com/watch?v=j2AgjFSFgRc)
 
+[The Foundation of C++ Atomics: The Knowledge You Need to Correctly Use C++ Atomics - Filipe Mulonde - YouTube](https://www.youtube.com/watch?v=BfEnMRWLjgQ)
+
+[Forward Progress Guarantees in C++ - Olivier Giroux - CppNow 2023 - YouTube](https://www.youtube.com/watch?v=g9Rgu6YEuqY&list=PL_AKIMJc4roUIwMsWnA9WPFJdCRfNUWHP&index=25)
+
+[Atomic Variables: Not radioactive, but you probably still don't want to touch them! - YouTube](https://www.youtube.com/watch?v=thYkjjwysS0)
+
 [Keren Censor-Hillel - Are Lock-Free Algorithms Practically Wait-Free? - YouTube](https://www.youtube.com/watch?v=v3Ec0rrJ_UI)
 
-[The Foundation of C++ Atomics: The Knowledge You Need to Correctly Use C++ Atomics - Filipe Mulonde - YouTube](https://www.youtube.com/watch?v=BfEnMRWLjgQ)
+[Decoupling Lock-Free Data Structures from Memory Reclamation for Static Analysis - YouTube](https://www.youtube.com/watch?v=5t73wQlq5c4)
+
+[Arm's Weakly-Ordered Memory Model and Barrier Requirements - Ash Wilding, Amazon - YouTube](https://www.youtube.com/watch?v=2I8OHacills)
 
 * * *
 

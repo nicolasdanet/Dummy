@@ -127,6 +127,8 @@
 
 [Matthias Killat - Lock-free programming for real-time systems - Meeting C++ 2021 - YouTube](https://www.youtube.com/watch?v=j2AgjFSFgRc)
 
+[CppCon 2015: Pedro Ramalhete “How to make your data structures wait-free for reads" - YouTube](https://www.youtube.com/watch?v=FtaD0maxwec)
+
 [The Foundation of C++ Atomics: The Knowledge You Need to Correctly Use C++ Atomics - Filipe Mulonde - YouTube](https://www.youtube.com/watch?v=BfEnMRWLjgQ)
 
 [Forward Progress Guarantees in C++ - Olivier Giroux - CppNow 2023 - YouTube](https://www.youtube.com/watch?v=g9Rgu6YEuqY&list=PL_AKIMJc4roUIwMsWnA9WPFJdCRfNUWHP&index=25)
@@ -138,6 +140,8 @@
 [Decoupling Lock-Free Data Structures from Memory Reclamation for Static Analysis - YouTube](https://www.youtube.com/watch?v=5t73wQlq5c4)
 
 [Arm's Weakly-Ordered Memory Model and Barrier Requirements - Ash Wilding, Amazon - YouTube](https://www.youtube.com/watch?v=2I8OHacills)
+
+[8 12 00pm A Memory Consistency Model for RISC V Caroline Trippel, Princeton University - YouTube](https://www.youtube.com/watch?v=jcXLV3xRxU8)
 
 * * *
 
@@ -214,3 +218,119 @@
 [C++Now 2018: Matt Godbolt “What Else Has My Compiler Done For Me Lately?” - YouTube](https://www.youtube.com/watch?v=nAbCKa0FzjQ)
 
 [KEYNOTE: What Everyone Should Know About How Amazing Compilers Are - Matt Godbolt \[C++ on Sea 2019\] - YouTube](https://www.youtube.com/watch?v=w0sz5WbS5AM)
+
+### CPU
+
+* * *
+
+[Padraic Edgington - YouTube](https://www.youtube.com/@padraicedgington901/featured)
+
+* * *
+
+[Computer Hardware and Mathematics - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KjrLSFLhM6bqnAs3M8R3jO)
+
+[MIPS Assembly Language Programming - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KYdV5bH-xzoybEHreDZ3Kh)
+
+[Digital Logic - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KY0zekzeMtFcYSlACDHyOK)
+
+[MIPS Single-Cycle Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-JSlKHoSDOYVoF0lyCd76DD)
+
+[MIPS 5-Stage Pipelined Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KFxGFauGAF3wOjYbmezNG0)
+
+[Branch Prediction - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-IWC1AEXqWKFmAgZdQRJfZ6)
+
+[Instruction Level Parallelism - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-JQv5snuxjBkurjk6AAK0Cj)
+
+[Tomasulo's Algorithm - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-LL9naFuE7c6G5Til_R6Vvf)
+
+[Bus Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KBuH6moMK6RMhIJCT4uT2T)
+
+[Memory - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-LSNiMruOt4VIbNqnWhU05Y)
+
+* * *
+
+[Prof. Dr. Ben H. Juurlink - YouTube](https://www.youtube.com/@prof.dr.benh.juurlink5459/playlists)
+
+* * *
+
+[1 1 1 Definition And Objectives - YouTube](https://www.youtube.com/watch?v=XerzI6WATM4&list=PLeWkeA7esB-MuCn8XQWAarM7zvimE0yme)
+
+[2 1 1 ILP Concepts and Challenges - YouTube](https://www.youtube.com/watch?v=ZoDUI3gTkDI&list=PLeWkeA7esB-PcOTrTCvAsaCArnCMQkcNv)
+
+[3 1 1 Introduction - YouTube](https://www.youtube.com/watch?v=heZcaz7zjwg&list=PLeWkeA7esB-PN8dBeEjWveHwnpQk7od0m)
+
+[4 1 1 Multicore motivation - YouTube](https://www.youtube.com/watch?v=j3XLX9fX31A&list=PLeWkeA7esB-OgNoVkE2lW2cVBxpDbu92h)
+
+* * *
+
+[Onur Mutlu Lectures - YouTube](https://www.youtube.com/@OnurMutluLectures/playlists)
+
+### Math
+
+* * *
+
+[Maths](https://www.youtube.com/@MathsAdultes/videos)
+
+* * *
+
+[Notions de fonction (définition, exemples) - YouTube](https://www.youtube.com/watch?v=bqOpdx7kwis)
+
+[Injection - Surjection - Bijection - YouTube](https://www.youtube.com/watch?v=wO3KzOjQqH0)
+
+[Inégalité de Cauchy-Schwarz - YouTube](https://www.youtube.com/watch?v=GCDtF8vMsz8)
+
+[Le Langage Mathématique - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimVy-7zspqZ9roHCfuoDIBE)
+
+[Théorie des groupes - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAim72NPlHds3N_4dqNwBMv1j)
+
+[Le groupe symétrique - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilMLZaOwTQH90gDCMxFhvhc)
+
+[Relations binaires - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimku40OtpbHK3APNfXlJrHL)
+
+[Déterminants - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilMuSO0MMBtC_A9PSa3rQ8R)
+
+[Polynômes - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAiknXlSqHSB4rocWnll9CNPe)
+
+[Fractions Rationnelles - YouTube](https://www.youtube.com/watch?v=hwAF0INbH3E)
+
+[Structures Algébriques - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAikFDNHujYvKStrEB5wEglmb)
+
+[Exemples d'ensembles quotients - YouTube](https://www.youtube.com/watch?v=zmJQy0sF4vQ)
+
+[Z/nZ, les nombres de la crypto - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAinMMyQkK_CzXhXU_LHRNXy_)
+
+[Théorème de Bézout - YouTube](https://www.youtube.com/watch?v=Ist_yFnhDBg)
+
+[Cryptologie - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimigSyilZ1Z3AlCIMINwaZg)
+
+[Décidabilité et Complexité - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilckvxQjHLfyDyDOh86e6k9)
+
+[Formule du Binome de Newton - YouTube](https://www.youtube.com/watch?v=QUMYiQtz4SE)
+
+[L'application dérivée, qu'est-ce que c'est ? - YouTube](https://www.youtube.com/watch?v=9uxqE3Ob_h0)
+
+[Séries Entières : Cours complet - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilHna8z3mByLV9gOi4iWXdI)
+
+[Séries numériques - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAin5JdYDdryLJKMHkaDm5od7)
+
+[Séries de fonctions - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimU_tzUQ05hmd88zzb-BxJb)
+
+[Séries de Fourier - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAineS2NgsKN4G4Tn2K9VAct4)
+
+[Exponentielle Complexe - YouTube](https://www.youtube.com/watch?v=RWEi_8ZtFNA)
+
+[Notion de dénombrabilité - YouTube](https://www.youtube.com/watch?v=6JS6huQZ3gk)
+
+[Fonctions indicatrices - YouTube](https://www.youtube.com/watch?v=r2vcq1jwcno)
+
+[Limite supérieure et limite inférieure - YouTube](https://www.youtube.com/watch?v=xcFjYsGe4dk)
+
+[Intégrale de Riemann - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimJJgT31AD_FrlNAYyzfxFH)
+
+[Intégrale de Lebesgue - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAikeH7HgzRewzjiPeczrCrXp)
+
+[Algèbre linéaire - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimNyRsaB2kLZqKvykuliUAr)
+
+[Réduction des endomorphismes - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAin8EGRBTDZWpa_6RVO3o2Ab)
+
+[Cours de Topologie - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAinIMDBberAUsJYUByhqeqUD)

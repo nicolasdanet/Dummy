@@ -123,6 +123,8 @@
 
 [Smarter Cpp Atomic Smart Pointers - Efficient Concurrent Memory Management - Daniel Anderson CppCon - YouTube](https://www.youtube.com/watch?v=OS7Asaa6zmY)
 
+[Lock-free Atomic Shared Pointers Without a Split Reference Count? It Can Be Done! - Daniel Anderson - YouTube](https://www.youtube.com/watch?v=lNPZV9Iqo3U&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72&index=35)
+
 [std::jthread - I Told You Concurrency Is Tricky - Nico Josuttis \[ ACCU 2021 \] - YouTube](https://www.youtube.com/watch?v=ln5ERAVXEMY)
 
 [Matthias Killat - Lock-free programming for real-time systems - Meeting C++ 2021 - YouTube](https://www.youtube.com/watch?v=j2AgjFSFgRc)
@@ -192,6 +194,8 @@
 [code::dive conference 2014 - Scott Meyers: Cpu Caches and Why You Care - YouTube](https://www.youtube.com/watch?v=WDIkqP4JbkE)
 
 [An Engineering Approach to Optimising C++ - Dave Rowland - C++ on Sea 2023 - YouTube](https://www.youtube.com/watch?app=desktop&v=TEeBcjKZhfg&pp=ygUUI2xhenlfaW5pdGlhbGl6YXRpb24%3D&themeRefresh=1)
+
+[C++20 Likely and Unlikely: A Journey Through Branch Prediction and Compiler Optimizations - YouTube](https://www.youtube.com/watch?v=T84swS6DCRo&list=PLn4wYlDYx4bti4V3tqS0plVNRCbKAnLuC&index=4)
 
 * * *
 

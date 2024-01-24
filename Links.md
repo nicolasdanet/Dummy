@@ -137,9 +137,13 @@
 
 [Atomic Variables: Not radioactive, but you probably still don't want to touch them! - YouTube](https://www.youtube.com/watch?v=thYkjjwysS0)
 
+[Optimizing Multithreading Performance - Shivam Kunwar - Meeting C++ 2024 - YouTube](https://www.youtube.com/watch?v=yN7C3SO4Uj8)
+
 [Keren Censor-Hillel - Are Lock-Free Algorithms Practically Wait-Free? - YouTube](https://www.youtube.com/watch?v=v3Ec0rrJ_UI)
 
 [Decoupling Lock-Free Data Structures from Memory Reclamation for Static Analysis - YouTube](https://www.youtube.com/watch?v=5t73wQlq5c4)
+
+[Every Data Structure Deserves Lock-Free Memory Reclamation - YouTube](https://www.youtube.com/watch?v=DhXCV6Ay9xU&list=PLfkCmXWzuDBQ485lVuH56DJiSLpPxxB1x&index=11)
 
 [Arm's Weakly-Ordered Memory Model and Barrier Requirements - Ash Wilding, Amazon - YouTube](https://www.youtube.com/watch?v=2I8OHacills)
 
@@ -270,6 +274,50 @@
 * * *
 
 [Onur Mutlu Lectures - YouTube](https://www.youtube.com/@OnurMutluLectures/playlists)
+
+* * *
+
+### Design
+
+* * *
+
+[Design Patterns: Examples in C++ - Chris Ryan - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=MEejmuLwX9M)
+
+* * *
+
+[Breaking Dependencies: The SOLID Principles - Klaus Iglberger - CppCon 2020 - YouTube](https://www.youtube.com/watch?v=Ntraj80qN2k)
+
+[Back to Basics: Designing Classes (part 1 of 2) - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=motLOioLJfg)
+
+[Back to Basics: Designing Classes (part 2 of 2) - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=O65lEiYkkbc)
+
+[Design Patterns: Facts and Misconceptions - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=OvO2NR7pXjg)
+
+[Breaking Dependencies: Type Erasure - A Design Analysis - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=4eeESJQk-mw)
+
+[The Singleton Pattern - Anti-Pattern or Solution? - Klaus Iglberger - C++ on Sea 2022 - YouTube](https://www.youtube.com/watch?v=3xFpV3cnGbw)
+
+[Breaking Dependencies: The Path to High-Quality Software - Klaus Iglberger - Meeting C++ 2022 - YouTube](https://www.youtube.com/watch?v=B4s381OrjWo)
+
+[Breaking Dependencies - C++ Type Erasure - The Implementation Details - Klaus Iglberger CppCon 2022 - YouTube](https://www.youtube.com/watch?v=qn6OqefuH08)
+
+[Breaking Dependencies - The Visitor Design Pattern in Cpp - Klaus Iglberger - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=PEcy1vYHb8A)
+
+[Design Patterns - The Most Common Misconceptions (1 of N) - Klaus Iglberger - NDC TechTown. 2023 - YouTube](https://www.youtube.com/watch?v=VVKJQ-QrMYg)
+
+* * *
+
+[C++Now 2017: Tony Van Eerd “Postmodern C++" - YouTube](https://www.youtube.com/watch?v=GPP64opjy_Y)
+
+[C++Now 2018: Tony Van Eerd “Words of Wisdom” - YouTube](https://www.youtube.com/watch?v=GgnKycitKyc)
+
+[CppCon 2019: Tony Van Eerd Objects vs Values: Value Oriented Programming in an Object Oriented World - YouTube](https://www.youtube.com/watch?v=2JGH_SWURrI)
+
+[Keynote: SOLID, Revisited - Tony Van Eerd - \[CppNow 2021\] - YouTube](https://www.youtube.com/watch?v=glYq-dvgby4)
+
+[Value Oriented Programming. Part 1: You Say You Want To Write A Function - Tony Van Eerd CppNorth 22 - YouTube](https://www.youtube.com/watch?v=rpCc-cfYa3k)
+
+[Value Oriented Programming Part V: Return of the Values - Tony Van Eerd - CppNorth 2023 - YouTube](https://www.youtube.com/watch?v=gqopX4VInQw)
 
 * * *
 

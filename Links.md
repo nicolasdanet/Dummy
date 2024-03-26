@@ -51,6 +51,8 @@
 
 [Lock-free programming with modern C++ - Timur Doumler \[ACCU 2017\] - YouTube](https://www.youtube.com/watch?v=qdrp6k4rcP4)
 
+[Real-time Confessions in C++ - Fabian Renn-Giles - ADC23 - YouTube](https://www.youtube.com/watch?v=JG7lqt7V1uY)
+
 * * *
 
 [C++ and Beyond 2012: Herb Sutter - atomic Weapons 1 of 2 - YouTube](https://www.youtube.com/watch?v=A8eCGOqgvH4&themeRefresh=1)
@@ -125,6 +127,8 @@
 
 [Lock-free Atomic Shared Pointers Without a Split Reference Count? It Can Be Done! - Daniel Anderson - YouTube](https://www.youtube.com/watch?v=lNPZV9Iqo3U&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72&index=35)
 
+* * *
+
 [std::jthread - I Told You Concurrency Is Tricky - Nico Josuttis \[ ACCU 2021 \] - YouTube](https://www.youtube.com/watch?v=ln5ERAVXEMY)
 
 [Matthias Killat - Lock-free programming for real-time systems - Meeting C++ 2021 - YouTube](https://www.youtube.com/watch?v=j2AgjFSFgRc)
@@ -148,6 +152,12 @@
 [Arm's Weakly-Ordered Memory Model and Barrier Requirements - Ash Wilding, Amazon - YouTube](https://www.youtube.com/watch?v=2I8OHacills)
 
 [8 12 00pm A Memory Consistency Model for RISC V Caroline Trippel, Princeton University - YouTube](https://www.youtube.com/watch?v=jcXLV3xRxU8)
+
+* * *
+
+[The Golden Rules of Audio Programming - Pete Goodliffe - ADC16 - YouTube](https://www.youtube.com/watch?v=SJXGSJ6Zoro)
+
+[RADSan: A Realtime-Safety Sanitizer - David Trevelyan & Ali Barker - ADC23 - YouTube](https://www.youtube.com/watch?v=P8rDWmmMmlg&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=22)
 
 * * *
 
@@ -283,6 +293,8 @@
 
 [Design Patterns: Examples in C++ - Chris Ryan - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=MEejmuLwX9M)
 
+[The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
+
 * * *
 
 [Breaking Dependencies: The SOLID Principles - Klaus Iglberger - CppCon 2020 - YouTube](https://www.youtube.com/watch?v=Ntraj80qN2k)
@@ -321,72 +333,14 @@
 
 * * *
 
+[Pragmatic Simplicity - Actionable Guidelines To Tame Cpp Complexity - Vittorio Romeo - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=3eH7JRgLnG8)
+
+[C++ Standard Views - Nico Josuttis - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=qv29fo9sUjY)
+
+* * *
+
 ### Math
 
 * * *
 
 [Maths](https://www.youtube.com/@MathsAdultes/videos)
-
-* * *
-
-[Notions de fonction (définition, exemples) - YouTube](https://www.youtube.com/watch?v=bqOpdx7kwis)
-
-[Injection - Surjection - Bijection - YouTube](https://www.youtube.com/watch?v=wO3KzOjQqH0)
-
-[Inégalité de Cauchy-Schwarz - YouTube](https://www.youtube.com/watch?v=GCDtF8vMsz8)
-
-[Le Langage Mathématique - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimVy-7zspqZ9roHCfuoDIBE)
-
-[Théorie des groupes - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAim72NPlHds3N_4dqNwBMv1j)
-
-[Le groupe symétrique - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilMLZaOwTQH90gDCMxFhvhc)
-
-[Relations binaires - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimku40OtpbHK3APNfXlJrHL)
-
-[Déterminants - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilMuSO0MMBtC_A9PSa3rQ8R)
-
-[Polynômes - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAiknXlSqHSB4rocWnll9CNPe)
-
-[Fractions Rationnelles - YouTube](https://www.youtube.com/watch?v=hwAF0INbH3E)
-
-[Structures Algébriques - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAikFDNHujYvKStrEB5wEglmb)
-
-[Exemples d'ensembles quotients - YouTube](https://www.youtube.com/watch?v=zmJQy0sF4vQ)
-
-[Z/nZ, les nombres de la crypto - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAinMMyQkK_CzXhXU_LHRNXy_)
-
-[Théorème de Bézout - YouTube](https://www.youtube.com/watch?v=Ist_yFnhDBg)
-
-[Cryptologie - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimigSyilZ1Z3AlCIMINwaZg)
-
-[Décidabilité et Complexité - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilckvxQjHLfyDyDOh86e6k9)
-
-[Formule du Binome de Newton - YouTube](https://www.youtube.com/watch?v=QUMYiQtz4SE)
-
-[L'application dérivée, qu'est-ce que c'est ? - YouTube](https://www.youtube.com/watch?v=9uxqE3Ob_h0)
-
-[Séries Entières : Cours complet - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAilHna8z3mByLV9gOi4iWXdI)
-
-[Séries numériques - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAin5JdYDdryLJKMHkaDm5od7)
-
-[Séries de fonctions - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimU_tzUQ05hmd88zzb-BxJb)
-
-[Séries de Fourier - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAineS2NgsKN4G4Tn2K9VAct4)
-
-[Exponentielle Complexe - YouTube](https://www.youtube.com/watch?v=RWEi_8ZtFNA)
-
-[Notion de dénombrabilité - YouTube](https://www.youtube.com/watch?v=6JS6huQZ3gk)
-
-[Fonctions indicatrices - YouTube](https://www.youtube.com/watch?v=r2vcq1jwcno)
-
-[Limite supérieure et limite inférieure - YouTube](https://www.youtube.com/watch?v=xcFjYsGe4dk)
-
-[Intégrale de Riemann - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimJJgT31AD_FrlNAYyzfxFH)
-
-[Intégrale de Lebesgue - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAikeH7HgzRewzjiPeczrCrXp)
-
-[Algèbre linéaire - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAimNyRsaB2kLZqKvykuliUAr)
-
-[Réduction des endomorphismes - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAin8EGRBTDZWpa_6RVO3o2Ab)
-
-[Cours de Topologie - YouTube](https://www.youtube.com/playlist?list=PLE8WtfrsTAinIMDBberAUsJYUByhqeqUD)

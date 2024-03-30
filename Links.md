@@ -159,6 +159,10 @@
 
 [RADSan: A Realtime-Safety Sanitizer - David Trevelyan & Ali Barker - ADC23 - YouTube](https://www.youtube.com/watch?v=P8rDWmmMmlg&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=22)
 
+[Linkers, Loaders and Shared Libraries in Windows, Linux, and C++ - Ofek Shilon - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=_enXuIxuNV4)
+
+[How to Allocate on the Audio Thread, and Why You Might Want To: Allocations Considered Beneficial - YouTube](https://www.youtube.com/watch?v=h-A4a-pYtoc)
+
 * * *
 
 [Type punning in modern C++ - Timur Doumler - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=_qzMpk-22cc)
@@ -203,6 +207,8 @@
 
 [Undefined Behavior in C++: A Performance Viewpoint - Fedor Pikus - CppNow 2022 - YouTube](https://www.youtube.com/watch?v=BbMybgmQBhU)
 
+[Undefined Behavior in C++: What Every Programmer Should Know and Fear - Fedor Pikus - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=k9N8OrhrSZw)
+
 [CppCon 2016: Timur Doumler “Want fast C++? Know your hardware!" - YouTube](https://www.youtube.com/watch?v=BP6NxVxDQIs)
 
 [code::dive conference 2014 - Scott Meyers: Cpu Caches and Why You Care - YouTube](https://www.youtube.com/watch?v=WDIkqP4JbkE)
@@ -210,6 +216,8 @@
 [An Engineering Approach to Optimising C++ - Dave Rowland - C++ on Sea 2023 - YouTube](https://www.youtube.com/watch?app=desktop&v=TEeBcjKZhfg&pp=ygUUI2xhenlfaW5pdGlhbGl6YXRpb24%3D&themeRefresh=1)
 
 [C++20 Likely and Unlikely: A Journey Through Branch Prediction and Compiler Optimizations - YouTube](https://www.youtube.com/watch?v=T84swS6DCRo&list=PLn4wYlDYx4bti4V3tqS0plVNRCbKAnLuC&index=4)
+
+[LLVM Optimization Remarks - Ofek Shilon - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=qmEsx4MbKoc)
 
 * * *
 
@@ -344,3 +352,13 @@
 * * *
 
 [Maths](https://www.youtube.com/@MathsAdultes/videos)
+
+[Exo7Math](https://www.youtube.com/user/exo7math)
+
+* * *
+
+[The Scientist and Engineer's Guide to Digital Signal Processing's Table of Content](https://www.dspguide.com/pdfbook.htm)
+
+[JOS Home Page](https://ccrma.stanford.edu/~jos/)
+
+[Puckette.pdf](https://msp.ucsd.edu/techniques/v0.03/book.pdf)

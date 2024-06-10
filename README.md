@@ -16,3 +16,4 @@
 - [WindowPosition](https://forum.juce.com/t/br-wrong-position-for-top-window-when-opened/49805/2)
 - [ValueTree](https://forum.juce.com/t/valuetree-lifetime-with-child-only/53303)
 - [XML](https://forum.juce.com/t/xmldocument-parsing-of-valid-xml-file-returns-no-attributes-but-also-no-parsing-error/51288)
+

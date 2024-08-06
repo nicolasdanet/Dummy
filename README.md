@@ -1,7 +1,11 @@
 
 # Dummy
 
- Bugs hunting or demo for the [JUCE's forum](https://forum.juce.com/).
+[CPP conferences](https://github.com/nicolasdanet/Dummy/blob/master/Links.md) (and others).
+
+JUCE's [dependencies packages](https://github.com/nicolasdanet/Dummy/blob/master/Dependencies.md) for GNU/Linux distributions.
+
+Bugs hunting or demo for the [JUCE's forum](https://forum.juce.com/).
 
 - [Bip](https://forum.juce.com/t/br-alert-sound-selecting-an-item-in-mac-menu/48066)
 - [CallOut](https://forum.juce.com/t/br-dismiss-calloutbox-disable-menu-commands-shortcuts/55136)

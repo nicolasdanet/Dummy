@@ -35,6 +35,8 @@
 
 * * *
 
+[Why You Shouldn’t Write a DAW - David Rowland - ADC23 - YouTube](https://www.youtube.com/watch?v=GMlnh6_9aTc&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=60)
+
 [Fabian Renn-Giles & Dave Rowland - Real-time 101 - part I: Investigating the real-time problem space - YouTube](https://www.youtube.com/watch?v=Q0vrQFyAdWI)
 
 [Dave Rowland & Fabian Renn-Giles - Real-time 101 - Part II: The real-time audio developer’s toolbox - YouTube](https://www.youtube.com/watch?v=PoZAo2Vikbo)
@@ -157,11 +159,17 @@
 
 [The Golden Rules of Audio Programming - Pete Goodliffe - ADC16 - YouTube](https://www.youtube.com/watch?v=SJXGSJ6Zoro)
 
+[Fast Audio Thread Synchronization for GPU Data - Evan Mezeske - ADC23 - YouTube](https://www.youtube.com/watch?v=lb8b1SYy73Q&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=44)
+
 [RADSan: A Realtime-Safety Sanitizer - David Trevelyan & Ali Barker - ADC23 - YouTube](https://www.youtube.com/watch?v=P8rDWmmMmlg&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=22)
+
+[What's Eating My RAM? - Memory Utilization in C++ - Jianfei Pan - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=DcJuzAag-iQ)
 
 [Linkers, Loaders and Shared Libraries in Windows, Linux, and C++ - Ofek Shilon - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=_enXuIxuNV4)
 
 [How to Allocate on the Audio Thread, and Why You Might Want To: Allocations Considered Beneficial - YouTube](https://www.youtube.com/watch?v=h-A4a-pYtoc)
+
+[Running High Channel Count Audio Applications on Linux RT - Olivier Petit - ADC23 - YouTube](https://www.youtube.com/watch?v=1TgzjOoiqIs&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=36)
 
 * * *
 
@@ -172,6 +180,10 @@
 [CppCon 2018: JF Bastien “Signed integers are two's complement” - YouTube](https://www.youtube.com/watch?v=JhUxIVf1qok)
 
 [Deprecating volatile - JF Bastien - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=KJW_DLaVXIY)
+
+[\*(char\*)0 = 0; - What Does the C++ Programmer Intend With This Code? - JF Bastien - C++ on Sea 2023 - YouTube](https://www.youtube.com/watch?v=dFIqNZ8VbRY)
+
+[Uninitialized Uses in Systems C++ Programming: The Bytes Before the C++ Types - JF Bastien - YouTube](https://www.youtube.com/watch?v=n7Tl1qJxTew)
 
 * * *
 
@@ -218,6 +230,8 @@
 [C++20 Likely and Unlikely: A Journey Through Branch Prediction and Compiler Optimizations - YouTube](https://www.youtube.com/watch?v=T84swS6DCRo&list=PLn4wYlDYx4bti4V3tqS0plVNRCbKAnLuC&index=4)
 
 [LLVM Optimization Remarks - Ofek Shilon - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=qmEsx4MbKoc)
+
+[A More Intuitive Approach to Optimising Audio DSP Code - Gustav Andersson - ADC23 - YouTube](https://www.youtube.com/watch?v=HdyiQLQCvfs&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&t=289s)
 
 * * *
 
@@ -291,39 +305,11 @@
 
 * * *
 
-[Onur Mutlu Lectures - YouTube](https://www.youtube.com/@OnurMutluLectures/playlists)
-
-* * *
-
 ### Design
 
 * * *
 
-[Design Patterns: Examples in C++ - Chris Ryan - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=MEejmuLwX9M)
-
 [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
-
-* * *
-
-[Breaking Dependencies: The SOLID Principles - Klaus Iglberger - CppCon 2020 - YouTube](https://www.youtube.com/watch?v=Ntraj80qN2k)
-
-[Back to Basics: Designing Classes (part 1 of 2) - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=motLOioLJfg)
-
-[Back to Basics: Designing Classes (part 2 of 2) - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=O65lEiYkkbc)
-
-[Design Patterns: Facts and Misconceptions - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=OvO2NR7pXjg)
-
-[Breaking Dependencies: Type Erasure - A Design Analysis - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=4eeESJQk-mw)
-
-[The Singleton Pattern - Anti-Pattern or Solution? - Klaus Iglberger - C++ on Sea 2022 - YouTube](https://www.youtube.com/watch?v=3xFpV3cnGbw)
-
-[Breaking Dependencies: The Path to High-Quality Software - Klaus Iglberger - Meeting C++ 2022 - YouTube](https://www.youtube.com/watch?v=B4s381OrjWo)
-
-[Breaking Dependencies - C++ Type Erasure - The Implementation Details - Klaus Iglberger CppCon 2022 - YouTube](https://www.youtube.com/watch?v=qn6OqefuH08)
-
-[Breaking Dependencies - The Visitor Design Pattern in Cpp - Klaus Iglberger - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=PEcy1vYHb8A)
-
-[Design Patterns - The Most Common Misconceptions (1 of N) - Klaus Iglberger - NDC TechTown. 2023 - YouTube](https://www.youtube.com/watch?v=VVKJQ-QrMYg)
 
 * * *
 
@@ -337,13 +323,49 @@
 
 [Value Oriented Programming. Part 1: You Say You Want To Write A Function - Tony Van Eerd CppNorth 22 - YouTube](https://www.youtube.com/watch?v=rpCc-cfYa3k)
 
-[Value Oriented Programming Part V: Return of the Values - Tony Van Eerd - CppNorth 2023 - YouTube](https://www.youtube.com/watch?v=gqopX4VInQw)
+[Value Oriented Programming Part V - Return of the Values - Tony Van Eerd - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=sc1guyo5Rso)
 
 * * *
 
 [Pragmatic Simplicity - Actionable Guidelines To Tame Cpp Complexity - Vittorio Romeo - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=3eH7JRgLnG8)
 
+[Design Patterns: Examples in C++ - Chris Ryan - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=MEejmuLwX9M)
+
+[Investigating Legacy Design Trends in C++ & Their Modern Replacements - Katherine Rocha C++Now 2024 - YouTube](https://www.youtube.com/watch?v=DvM8oKA1YiM)
+
+[Finding Your Codebases C++ Roots - Katherine Rocha - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=N4SaOfVrdTE)
+
+* * *
+
+[CppCon 2017: Klaus Iglberger “Free Your Functions!” - YouTube](https://www.youtube.com/watch?v=WLDT1lDOsb4)
+
+[\[MUC++\] Klaus Iglberger - "Embrace No Paradigm Programming!" - YouTube](https://www.youtube.com/watch?v=fwXaRH5ffJM)
+
+[Breaking Dependencies: The SOLID Principles - Klaus Iglberger - CppCon 2020 - YouTube](https://www.youtube.com/watch?v=Ntraj80qN2k)
+
+[Back to Basics: Designing Classes (part 1 of 2) - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=motLOioLJfg)
+
+[Back to Basics: Designing Classes (part 2 of 2) - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=O65lEiYkkbc)
+
+[Breaking Dependencies: Type Erasure - A Design Analysis - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=4eeESJQk-mw)
+
+[Breaking Dependencies: The Path to High-Quality Software - Klaus Iglberger - Meeting C++ 2022 - YouTube](https://www.youtube.com/watch?v=B4s381OrjWo)
+
+[Breaking Dependencies - C++ Type Erasure - The Implementation Details - Klaus Iglberger CppCon 2022 - YouTube](https://www.youtube.com/watch?v=qn6OqefuH08)
+
+[Breaking Dependencies - The Visitor Design Pattern in Cpp - Klaus Iglberger - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=PEcy1vYHb8A)
+
+[The Singleton Pattern - Anti-Pattern or Solution? - Klaus Iglberger - C++ on Sea 2022 - YouTube](https://www.youtube.com/watch?v=3xFpV3cnGbw)
+
+[Design Patterns: Facts and Misconceptions - Klaus Iglberger - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=OvO2NR7pXjg)
+
+[Design Patterns - The Most Common Misconceptions (1 of N) - Klaus Iglberger - NDC TechTown. 2023 - YouTube](https://www.youtube.com/watch?v=VVKJQ-QrMYg)
+
+* * *
+
 [C++ Standard Views - Nico Josuttis - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=qv29fo9sUjY)
+
+[Understanding the Filter View to Use It Right - Nicolai M. Josuttis - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=jR3WE-hAhCc)
 
 * * *
 
@@ -353,12 +375,10 @@
 
 [Maths](https://www.youtube.com/@MathsAdultes/videos)
 
-[Exo7Math](https://www.youtube.com/user/exo7math)
-
 * * *
-
-[The Scientist and Engineer's Guide to Digital Signal Processing's Table of Content](https://www.dspguide.com/pdfbook.htm)
 
 [JOS Home Page](https://ccrma.stanford.edu/~jos/)
 
-[Puckette.pdf](https://msp.ucsd.edu/techniques/v0.03/book.pdf)
+[The Scientist and Engineer's Guide to Digital Signal Processing's Table of Content](https://www.dspguide.com/pdfbook.htm)
+
+[Miller Puckette.pdf](https://msp.ucsd.edu/techniques/v0.03/book.pdf)

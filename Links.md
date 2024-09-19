@@ -13,6 +13,8 @@
 
 [Ross Bencina » Real-time audio programming 101: time waits for nothing](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing)
 
+[Is Parallel Programming Hard, And, If So, What Can You Do About It?](https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.html)
+
 [perfbook.2023.06.11a.pdf](https://mirrors.edge.kernel.org/pub/linux/kernel/people/paulmck/perfbook/perfbook.2023.06.11a.pdf)
 
 [Real World Technologies - Forums - Thread: Nuances related to Spinlock implementation and the Linux Scheduler](https://www.realworldtech.com/forum/?threadid=189711&curpostid=189723)
@@ -35,8 +37,6 @@
 
 * * *
 
-[Why You Shouldn’t Write a DAW - David Rowland - ADC23 - YouTube](https://www.youtube.com/watch?v=GMlnh6_9aTc&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=60)
-
 [Fabian Renn-Giles & Dave Rowland - Real-time 101 - part I: Investigating the real-time problem space - YouTube](https://www.youtube.com/watch?v=Q0vrQFyAdWI)
 
 [Dave Rowland & Fabian Renn-Giles - Real-time 101 - Part II: The real-time audio developer’s toolbox - YouTube](https://www.youtube.com/watch?v=PoZAo2Vikbo)
@@ -54,6 +54,10 @@
 [Lock-free programming with modern C++ - Timur Doumler \[ACCU 2017\] - YouTube](https://www.youtube.com/watch?v=qdrp6k4rcP4)
 
 [Real-time Confessions in C++ - Fabian Renn-Giles - ADC23 - YouTube](https://www.youtube.com/watch?v=JG7lqt7V1uY)
+
+[Why You Shouldn’t Write a DAW - David Rowland - ADC23 - YouTube](https://www.youtube.com/watch?v=GMlnh6_9aTc&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=60)
+
+[Catching Real-time Safety Violations in C++ - Dave Rowland - C++ on Sea 2024 - YouTube](https://www.youtube.com/watch?v=n_jeX1s1rkg)
 
 * * *
 
@@ -155,6 +159,8 @@
 
 [8 12 00pm A Memory Consistency Model for RISC V Caroline Trippel, Princeton University - YouTube](https://www.youtube.com/watch?v=jcXLV3xRxU8)
 
+[Introduction to Lock/Wait Free Algorithms - Defining and Understanding the Terms Jeffrey Mendelsohn - YouTube](https://www.youtube.com/watch?v=JKBhtwIY_bU)
+
 * * *
 
 [The Golden Rules of Audio Programming - Pete Goodliffe - ADC16 - YouTube](https://www.youtube.com/watch?v=SJXGSJ6Zoro)
@@ -220,6 +226,8 @@
 [Undefined Behavior in C++: A Performance Viewpoint - Fedor Pikus - CppNow 2022 - YouTube](https://www.youtube.com/watch?v=BbMybgmQBhU)
 
 [Undefined Behavior in C++: What Every Programmer Should Know and Fear - Fedor Pikus - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=k9N8OrhrSZw)
+
+[Unlocking Modern CPU Power - Next-Gen C++ Optimization Techniques - Fedor G Pikus - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=wGSSUSeaLgA)
 
 [CppCon 2016: Timur Doumler “Want fast C++? Know your hardware!" - YouTube](https://www.youtube.com/watch?v=BP6NxVxDQIs)
 
@@ -327,16 +335,6 @@
 
 * * *
 
-[Pragmatic Simplicity - Actionable Guidelines To Tame Cpp Complexity - Vittorio Romeo - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=3eH7JRgLnG8)
-
-[Design Patterns: Examples in C++ - Chris Ryan - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=MEejmuLwX9M)
-
-[Investigating Legacy Design Trends in C++ & Their Modern Replacements - Katherine Rocha C++Now 2024 - YouTube](https://www.youtube.com/watch?v=DvM8oKA1YiM)
-
-[Finding Your Codebases C++ Roots - Katherine Rocha - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=N4SaOfVrdTE)
-
-* * *
-
 [CppCon 2017: Klaus Iglberger “Free Your Functions!” - YouTube](https://www.youtube.com/watch?v=WLDT1lDOsb4)
 
 [\[MUC++\] Klaus Iglberger - "Embrace No Paradigm Programming!" - YouTube](https://www.youtube.com/watch?v=fwXaRH5ffJM)
@@ -363,9 +361,29 @@
 
 * * *
 
+[Design Patterns: Examples in C++ - Chris Ryan - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=MEejmuLwX9M)
+
+* * *
+
+[Pragmatic Simplicity - Actionable Guidelines To Tame Cpp Complexity - Vittorio Romeo - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=3eH7JRgLnG8)
+
+[Investigating Legacy Design Trends in C++ & Their Modern Replacements - Katherine Rocha C++Now 2024 - YouTube](https://www.youtube.com/watch?v=DvM8oKA1YiM)
+
+[Finding Your Codebases C++ Roots - Katherine Rocha - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=N4SaOfVrdTE)
+
+[Dependency Injection in C++ - A Practical Guide - Peter Muldoon - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=kCYo2gJ3Y38)
+
+[Developing Better C++ Code by Isolating Decisions - Michael Okyen - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=UTgxuT2hZY0)
+
+[Reintroduction to Generic Programming for C++ Engineers - Nick DeMarco - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=tt0-7athgrE)
+
+* * *
+
 [C++ Standard Views - Nico Josuttis - ACCU 2023 - YouTube](https://www.youtube.com/watch?v=qv29fo9sUjY)
 
 [Understanding the Filter View to Use It Right - Nicolai M. Josuttis - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=jR3WE-hAhCc)
+
+[C++ Should Be C++ - David Sankel - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=qTw0q3WfdNs)
 
 * * *
 

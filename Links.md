@@ -1,7 +1,7 @@
 
-* * *
+### Links
 
-### RealTime
+### Blogs
 
 * * *
 
@@ -37,6 +37,10 @@
 
 * * *
 
+### RealTime
+
+* * *
+
 [Fabian Renn-Giles & Dave Rowland - Real-time 101 - part I: Investigating the real-time problem space - YouTube](https://www.youtube.com/watch?v=Q0vrQFyAdWI)
 
 [Dave Rowland & Fabian Renn-Giles - Real-time 101 - Part II: The real-time audio developer’s toolbox - YouTube](https://www.youtube.com/watch?v=PoZAo2Vikbo)
@@ -58,6 +62,12 @@
 [Why You Shouldn’t Write a DAW - David Rowland - ADC23 - YouTube](https://www.youtube.com/watch?v=GMlnh6_9aTc&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=60)
 
 [Catching Real-time Safety Violations in C++ - Dave Rowland - C++ on Sea 2024 - YouTube](https://www.youtube.com/watch?v=n_jeX1s1rkg)
+
+* * *
+
+[The Golden Rules of Audio Programming - Pete Goodliffe - ADC16 - YouTube](https://www.youtube.com/watch?v=SJXGSJ6Zoro)
+
+[Making music: Architecting realtime audio development with QML | DevDes 2021 - YouTube](https://www.youtube.com/watch?v=QlirdL4JORc&t=11s)
 
 * * *
 
@@ -135,8 +145,6 @@
 
 * * *
 
-[std::jthread - I Told You Concurrency Is Tricky - Nico Josuttis \[ ACCU 2021 \] - YouTube](https://www.youtube.com/watch?v=ln5ERAVXEMY)
-
 [Matthias Killat - Lock-free programming for real-time systems - Meeting C++ 2021 - YouTube](https://www.youtube.com/watch?v=j2AgjFSFgRc)
 
 [CppCon 2015: Pedro Ramalhete “How to make your data structures wait-free for reads" - YouTube](https://www.youtube.com/watch?v=FtaD0maxwec)
@@ -161,35 +169,19 @@
 
 [Introduction to Lock/Wait Free Algorithms - Defining and Understanding the Terms Jeffrey Mendelsohn - YouTube](https://www.youtube.com/watch?v=JKBhtwIY_bU)
 
-* * *
-
-[The Golden Rules of Audio Programming - Pete Goodliffe - ADC16 - YouTube](https://www.youtube.com/watch?v=SJXGSJ6Zoro)
-
 [Fast Audio Thread Synchronization for GPU Data - Evan Mezeske - ADC23 - YouTube](https://www.youtube.com/watch?v=lb8b1SYy73Q&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=44)
 
 [RADSan: A Realtime-Safety Sanitizer - David Trevelyan & Ali Barker - ADC23 - YouTube](https://www.youtube.com/watch?v=P8rDWmmMmlg&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=22)
-
-[What's Eating My RAM? - Memory Utilization in C++ - Jianfei Pan - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=DcJuzAag-iQ)
-
-[Linkers, Loaders and Shared Libraries in Windows, Linux, and C++ - Ofek Shilon - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=_enXuIxuNV4)
 
 [How to Allocate on the Audio Thread, and Why You Might Want To: Allocations Considered Beneficial - YouTube](https://www.youtube.com/watch?v=h-A4a-pYtoc)
 
 [Running High Channel Count Audio Applications on Linux RT - Olivier Petit - ADC23 - YouTube](https://www.youtube.com/watch?v=1TgzjOoiqIs&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&index=36)
 
+### Concurrency
+
 * * *
 
-[Type punning in modern C++ - Timur Doumler - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=_qzMpk-22cc)
-
-[CppCon 2016: JF Bastien “No Sane Compiler Would Optimize Atomics" - YouTube](https://www.youtube.com/watch?v=IB57wIf9W1k)
-
-[CppCon 2018: JF Bastien “Signed integers are two's complement” - YouTube](https://www.youtube.com/watch?v=JhUxIVf1qok)
-
-[Deprecating volatile - JF Bastien - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=KJW_DLaVXIY)
-
-[\*(char\*)0 = 0; - What Does the C++ Programmer Intend With This Code? - JF Bastien - C++ on Sea 2023 - YouTube](https://www.youtube.com/watch?v=dFIqNZ8VbRY)
-
-[Uninitialized Uses in Systems C++ Programming: The Bytes Before the C++ Types - JF Bastien - YouTube](https://www.youtube.com/watch?v=n7Tl1qJxTew)
+[std::jthread - I Told You Concurrency Is Tricky - Nico Josuttis \[ ACCU 2021 \] - YouTube](https://www.youtube.com/watch?v=ln5ERAVXEMY)
 
 * * *
 
@@ -219,6 +211,10 @@
 
 * * *
 
+### Optimization
+
+* * *
+
 [CppCon 2018: Fedor Pikus “Design for Performance” - YouTube](https://www.youtube.com/watch?v=m25p3EtBua4)
 
 [Branchless Programming in C++ - Fedor Pikus - CppCon 2021 - YouTube](https://www.youtube.com/watch?v=g-WPhYREFjk)
@@ -240,6 +236,10 @@
 [LLVM Optimization Remarks - Ofek Shilon - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=qmEsx4MbKoc)
 
 [A More Intuitive Approach to Optimising Audio DSP Code - Gustav Andersson - ADC23 - YouTube](https://www.youtube.com/watch?v=HdyiQLQCvfs&list=PLe2skUvADfhvG6ws3IkrfnW3w_DBK86qQ&t=289s)
+
+[Being Friendly to Your Computer Hardware in Software Development - Ignas Bagdonas - C++ on Sea 2024 - YouTube](https://www.youtube.com/watch?v=eceFgsiPPmk)
+
+[When Nanoseconds Matter: Ultrafast Trading Systems in C++ - David Gross - CppCon 2024 - YouTube](https://www.youtube.com/watch?v=sX2nF1fW7kI&list=PLHTh1InhhwT6U7t1yP2K8AtTEKmcM3XU_&index=2)
 
 * * *
 
@@ -266,50 +266,6 @@
 [C++Now 2018: Matt Godbolt “What Else Has My Compiler Done For Me Lately?” - YouTube](https://www.youtube.com/watch?v=nAbCKa0FzjQ)
 
 [KEYNOTE: What Everyone Should Know About How Amazing Compilers Are - Matt Godbolt \[C++ on Sea 2019\] - YouTube](https://www.youtube.com/watch?v=w0sz5WbS5AM)
-
-* * *
-
-### CPU
-
-* * *
-
-[Padraic Edgington - YouTube](https://www.youtube.com/@padraicedgington901/featured)
-
-* * *
-
-[Computer Hardware and Mathematics - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KjrLSFLhM6bqnAs3M8R3jO)
-
-[MIPS Assembly Language Programming - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KYdV5bH-xzoybEHreDZ3Kh)
-
-[Digital Logic - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KY0zekzeMtFcYSlACDHyOK)
-
-[MIPS Single-Cycle Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-JSlKHoSDOYVoF0lyCd76DD)
-
-[MIPS 5-Stage Pipelined Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KFxGFauGAF3wOjYbmezNG0)
-
-[Branch Prediction - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-IWC1AEXqWKFmAgZdQRJfZ6)
-
-[Instruction Level Parallelism - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-JQv5snuxjBkurjk6AAK0Cj)
-
-[Tomasulo's Algorithm - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-LL9naFuE7c6G5Til_R6Vvf)
-
-[Bus Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KBuH6moMK6RMhIJCT4uT2T)
-
-[Memory - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-LSNiMruOt4VIbNqnWhU05Y)
-
-* * *
-
-[Prof. Dr. Ben H. Juurlink - YouTube](https://www.youtube.com/@prof.dr.benh.juurlink5459/playlists)
-
-* * *
-
-[1 1 1 Definition And Objectives - YouTube](https://www.youtube.com/watch?v=XerzI6WATM4&list=PLeWkeA7esB-MuCn8XQWAarM7zvimE0yme)
-
-[2 1 1 ILP Concepts and Challenges - YouTube](https://www.youtube.com/watch?v=ZoDUI3gTkDI&list=PLeWkeA7esB-PcOTrTCvAsaCArnCMQkcNv)
-
-[3 1 1 Introduction - YouTube](https://www.youtube.com/watch?v=heZcaz7zjwg&list=PLeWkeA7esB-PN8dBeEjWveHwnpQk7od0m)
-
-[4 1 1 Multicore motivation - YouTube](https://www.youtube.com/watch?v=j3XLX9fX31A&list=PLeWkeA7esB-OgNoVkE2lW2cVBxpDbu92h)
 
 * * *
 
@@ -367,6 +323,8 @@
 
 [Pragmatic Simplicity - Actionable Guidelines To Tame Cpp Complexity - Vittorio Romeo - CppCon 2022 - YouTube](https://www.youtube.com/watch?v=3eH7JRgLnG8)
 
+[The Most Important API Design Guideline - No, It's Not That One - Jody Hagins - C++Now 2024 - YouTube](https://www.youtube.com/watch?v=xzIeQWLDSu4)
+
 [Investigating Legacy Design Trends in C++ & Their Modern Replacements - Katherine Rocha C++Now 2024 - YouTube](https://www.youtube.com/watch?v=DvM8oKA1YiM)
 
 [Finding Your Codebases C++ Roots - Katherine Rocha - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=N4SaOfVrdTE)
@@ -387,6 +345,74 @@
 
 * * *
 
+### Miscellaneous
+
+* * *
+
+[Type punning in modern C++ - Timur Doumler - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=_qzMpk-22cc)
+
+[CppCon 2016: JF Bastien “No Sane Compiler Would Optimize Atomics" - YouTube](https://www.youtube.com/watch?v=IB57wIf9W1k)
+
+[CppCon 2018: JF Bastien “Signed integers are two's complement” - YouTube](https://www.youtube.com/watch?v=JhUxIVf1qok)
+
+[Deprecating volatile - JF Bastien - CppCon 2019 - YouTube](https://www.youtube.com/watch?v=KJW_DLaVXIY)
+
+[\*(char\*)0 = 0; - What Does the C++ Programmer Intend With This Code? - JF Bastien - C++ on Sea 2023 - YouTube](https://www.youtube.com/watch?v=dFIqNZ8VbRY)
+
+[Uninitialized Uses in Systems C++ Programming: The Bytes Before the C++ Types - JF Bastien - YouTube](https://www.youtube.com/watch?v=n7Tl1qJxTew)
+
+* * *
+
+[Linkers, Loaders and Shared Libraries in Windows, Linux, and C++ - Ofek Shilon - CppCon 2023 - YouTube](https://www.youtube.com/watch?v=_enXuIxuNV4)
+
+[What's Eating My RAM? - Memory Utilization in C++ - Jianfei Pan - ACCU 2024 - YouTube](https://www.youtube.com/watch?v=DcJuzAag-iQ)
+
+* * *
+
+### CPU
+
+* * *
+
+[Padraic Edgington - YouTube](https://www.youtube.com/@padraicedgington901/featured)
+
+* * *
+
+[Computer Hardware and Mathematics - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KjrLSFLhM6bqnAs3M8R3jO)
+
+[MIPS Assembly Language Programming - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KYdV5bH-xzoybEHreDZ3Kh)
+
+[Digital Logic - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KY0zekzeMtFcYSlACDHyOK)
+
+[MIPS Single-Cycle Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-JSlKHoSDOYVoF0lyCd76DD)
+
+[MIPS 5-Stage Pipelined Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KFxGFauGAF3wOjYbmezNG0)
+
+[Branch Prediction - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-IWC1AEXqWKFmAgZdQRJfZ6)
+
+[Instruction Level Parallelism - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-JQv5snuxjBkurjk6AAK0Cj)
+
+[Tomasulo's Algorithm - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-LL9naFuE7c6G5Til_R6Vvf)
+
+[Bus Architecture - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-KBuH6moMK6RMhIJCT4uT2T)
+
+[Memory - YouTube](https://www.youtube.com/playlist?list=PL1C2GgOjAF-LSNiMruOt4VIbNqnWhU05Y)
+
+* * *
+
+[Prof. Dr. Ben H. Juurlink - YouTube](https://www.youtube.com/@prof.dr.benh.juurlink5459/playlists)
+
+* * *
+
+[1 1 1 Definition And Objectives - YouTube](https://www.youtube.com/watch?v=XerzI6WATM4&list=PLeWkeA7esB-MuCn8XQWAarM7zvimE0yme)
+
+[2 1 1 ILP Concepts and Challenges - YouTube](https://www.youtube.com/watch?v=ZoDUI3gTkDI&list=PLeWkeA7esB-PcOTrTCvAsaCArnCMQkcNv)
+
+[3 1 1 Introduction - YouTube](https://www.youtube.com/watch?v=heZcaz7zjwg&list=PLeWkeA7esB-PN8dBeEjWveHwnpQk7od0m)
+
+[4 1 1 Multicore motivation - YouTube](https://www.youtube.com/watch?v=j3XLX9fX31A&list=PLeWkeA7esB-OgNoVkE2lW2cVBxpDbu92h)
+
+* * *
+
 ### Math
 
 * * *
@@ -400,3 +426,5 @@
 [The Scientist and Engineer's Guide to Digital Signal Processing's Table of Content](https://www.dspguide.com/pdfbook.htm)
 
 [Miller Puckette.pdf](https://msp.ucsd.edu/techniques/v0.03/book.pdf)
+
+* * *
